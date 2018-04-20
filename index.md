@@ -2,7 +2,7 @@
 
 ## Llama Music
 
-    New app for Windows 10 coming soon...
+    A new app coming soon to all your Windows 10 devices...
 
 [![Llama Music](img/store-lma-252x252.png)][link-store-lma]
 
