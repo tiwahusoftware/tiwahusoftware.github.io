@@ -16,11 +16,15 @@ Music Archive_ (_etree_ collection) to **all** your Windows 10 devices.
 ### Feature Highlights
 
 - **Free**.
+
 - **Legal**.
+
 - **No** advertisements.
+
 - **No** in-app purchases.
 
 - Background audio support.
+
 - **Gapless** playback. (_Finally!_)
 
 - Progress in concerts is tracked by **Bookmarks** so you can easily resume a show in progress.
@@ -106,7 +110,6 @@ If you are still running Windows Phone 8, [get this app][link-store-lma-legacy].
 
 > Best app ever works like nobody's business waited for a long time for this
 
-
 ### Version Highlights
 
 - v2.0.80.15
@@ -176,10 +179,6 @@ If you are still running Windows Phone 8, [get this app][link-store-lma-legacy].
 ## Contact
 
 [![@tiwahu](img/twitter-icon-252x252.png)](https://twitter.com/tiwahu/)
-
-----
-
-\#\#\#
 
 [link-etree]: https://archive.org/details/etree/
 [link-store-lma]: https://www.microsoft.com/store/apps/9WZDNCRDCNJT
