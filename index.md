@@ -10,7 +10,7 @@
 successor to the highly-rated **Live Music Access** app enjoyed on Windows
 Phone.
 
-Browse, search, and stream concert recordings from Internet Archive's [Live
+**Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live
 Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devices.
 
 ### Feature Highlights
@@ -29,44 +29,37 @@ Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devic
 
 - Automatic **Bookmarks** so you can easily resume a previous concert.
 
-- Theme settings
-  - **System** Theme
-    > _It's a buck dancer's choice my friend_
-
-  - **Dark** Theme
-    > _The sunny side of the street is dark_
-
-  - **Light** Theme
-    > _Like an angel, standing in a shaft of light_
-
-  - **Opposite System** Theme
-    > _Every silver lining's got a touch of grey_
-
-  - **Clock-based** Theme
-    > _One watch by night, one watch by day_
-
-  - **Random** Theme
-    > _Ain't no luck, I learned to duck_
-
 - Multiple ways to **Tag** recordings.
+
+- Bookmarks and tags **sync** between your devices.
 
 - **Pin** concerts, artists, venues, taper, and more to your Start screen.
 
 - View all bookmarks, tags, and pinned recording in **History** view.
 
-- Roll the dice and discover new music with **Random** buttons.
+- Theme settings
+  - **System** _"It's a buck dancer's choice my friend"_ Theme
+  - **Dark** _"The sunny side of the street is dark"_ Theme
+  - **Light** _"Like an angel, standing in a shaft of light"_ Theme
+  - **Opposite System** _"Every silver lining's got a touch of grey"_ Theme
+  - **Clock-based**  _"One watch by night, one watch by day"_ Theme
+  - **Random** _"Ain't no luck, I learned to duck"_ Theme
+
+- Roll the dice to discover new music with **Random** buttons.
 
 - **Search** multiple attributes to find exactly the show you want.
 
 - **Share** concerts with your friends.
 
-- Display album art of current and recent plays on **Lockscreen**.
+- Display album art of current and recent plays on your **Lock screen**.
 
 - Cortana **voice command** integration.
 
 - Desktop, laptop, and tablet support
+  - Interface adapts to input method.
+  - Tooltips.
   - **Keyboard** commands.
-    - **`ESC`** goes back or close.
+    - **`ESC`** back or close.
     - **`CTRL`+`F`** find.
     - **`CTRL`+`H`** share.
     - **`CTRL`+`I`** pin.
@@ -76,9 +69,7 @@ Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devic
     - **`CTRL`+`J`** eject.
     - **`CTRL`+`,`** settings.
     - **`F1`** about.
-    - ...
-  - Tooltips.
-  - Interface adapts to input method.
+    - ...and _more!_
 
 - **Phone** support, too!
   - This app is _just exactly perfect_ for a phone form factor.
@@ -90,16 +81,17 @@ Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devic
   - Seems _faster_.
 
 - **HoloLens** support
-  - _What?!?!_ (I guess so, but I still gotta see it to believe it.)
+  - _What?!?!_ (I guess it works, but I still gotta see it to believe it.)
 
-- ...and a bunch of little things, like sensible sorting of band names, song
-  transition arrow standardization, etc.
+- ...and a lot of **attention to detail**: natural sorting of band names,
+  transition arrow standardization, track title data cleansing, metadata
+  sanitizations, etc.
 
 ### Coming Soon
 
-- Support for **Xbox One**.
-- Compact Overlay support (i.e., **picture-in-picture** for the app on PC).
-- More **Cortana** commands.
+- Support for **Xbox One** (and it is looking _fantastic_).
+- Compact Overlay support (basically, **picture-in-picture** on your PC).
+- More **Cortana** commands to find what you want to play.
 - Other stuff _we_ want.
 - Other stuff _you_ want.
 - ...and more?

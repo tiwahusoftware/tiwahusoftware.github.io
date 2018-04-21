@@ -10,6 +10,9 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <meta name="application-name" content="Tiwahu Software" />
   <meta name="msapplication-config" content="tile.xml" />
+  <style type="text/css">
+    body { cursor: default; }
+  </style>
   {% seo %}
 </head>
 
@@ -22,7 +25,7 @@
       <a href="/"><img src="/img/tiwahu-logo-96x96.png" style="float: left; padding: 0px; margin-right: 24px;" /></a>
 
       <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <h2 id="project_tagline" style="color: #808080;">{{ site.description | default: site.github.project_tagline }}</h2>
 
       {% if site.show_downloads %}
       <section id="downloads">
