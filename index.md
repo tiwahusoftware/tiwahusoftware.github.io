@@ -10,8 +10,8 @@
 successor to the highly-rated **Live Music Access** app enjoyed on Windows
 Phone.
 
-Browse, search, and stream concert recordings from Internet Archive's _Live
-Music Archive_ (_etree_ collection) to **all** your Windows 10 devices.
+Browse, search, and stream concert recordings from Internet Archive's [Live
+Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devices.
 
 ### Feature Highlights
 
@@ -27,52 +27,78 @@ Music Archive_ (_etree_ collection) to **all** your Windows 10 devices.
 
 - **Gapless** playback. (_Finally!_)
 
-- Progress in concerts is tracked by **Bookmarks** so you can easily resume a show in progress.
+- Automatic **Bookmarks** so you can easily resume a previous concert.
 
-- Themes
-  - **System** "It's a buck dancer's choice my friend" Theme
-  - **Dark** "The sunny side of the street is dark" Theme
-  - **Light** "Like an angel, standing in a shaft of light" Theme
-  - **Opposite System** "Every silver lining's got a touch of grey" Theme
-  - **Clock-based** "One watch by night, one watch by day" Theme
-  - **Random** "Ain't no luck, I learned to duck" Theme
+- Theme settings
+  - **System** Theme
+    > _It's a buck dancer's choice my friend_
+
+  - **Dark** Theme
+    > _The sunny side of the street is dark_
+
+  - **Light** Theme
+    > _Like an angel, standing in a shaft of light_
+
+  - **Opposite System** Theme
+    > _Every silver lining's got a touch of grey_
+
+  - **Clock-based** Theme
+    > _One watch by night, one watch by day_
+
+  - **Random** Theme
+    > _Ain't no luck, I learned to duck_
 
 - Multiple ways to **Tag** recordings.
 
-- Discover new bands and shows with **Random** button.
-
 - **Pin** concerts, artists, venues, taper, and more to your Start screen.
 
-- Search multiple attributes to find the shows you want.
+- View all bookmarks, tags, and pinned recording in **History** view.
+
+- Roll the dice and discover new music with **Random** buttons.
+
+- **Search** multiple attributes to find exactly the show you want.
 
 - **Share** concerts with your friends.
 
-- **Cortana** voice command integration.
+- Display album art of current and recent plays on **Lockscreen**.
 
-- Desktop, laptop. and tablet support
+- Cortana **voice command** integration.
+
+- Desktop, laptop, and tablet support
   - **Keyboard** commands.
-    - **`ESC`** goes back or closes stuff.
-    - **`CTRL`+`F`** find stuff.
+    - **`ESC`** goes back or close.
+    - **`CTRL`+`F`** find.
+    - **`CTRL`+`H`** share.
+    - **`CTRL`+`I`** pin.
+    - **`CTRL`+`D`** bands.
+    - **`CTRL`+`O`** random.
+    - **`CTRL`+`P`** play/pause.
+    - **`CTRL`+`J`** eject.
+    - **`CTRL`+`,`** settings.
+    - **`F1`** about.
     - ...
   - Tooltips.
   - Interface adapts to input method.
 
-- **Phone** support
-  - This app is perfect for a phone form factor.
-  - Recreated some UI interactions that the OS lost in the upgrade to _Windows 10 Mobile_
-    - Tapping opposite end of app bar _also_ opens the app bar; not just the ellipse.
-    - No "trigram for heaven" button in an awkward upper corner.
-    - Better accessibility with app bar on bottom of screen.
-    - Pivot and list navigation.
-    - Seems faster.
+- **Phone** support, too!
+  - This app is _just exactly perfect_ for a phone form factor.
+  - Recreated some old native UX removed by _Windows 10 Mobile_.
+  - No "trigram for heaven" button in an awkward upper corner.
+  - Tapping either end of the command bar _opens the secondary menu_; not just the ellipsis.
+  - Better thumb-ability with commands on _bottom_ of screen.
+  - Primary navigation via pivots and lists.
+  - Seems _faster_.
 
 - **HoloLens** support
-  - _What?!?!_ Gotta see it to believe it.
+  - _What?!?!_ (I guess so, but I still gotta see it to believe it.)
+
+- ...and a bunch of little things, like sensible sorting of band names, song
+  transition arrow standardization, etc.
 
 ### Coming Soon
 
 - Support for **Xbox One**.
-- Compact Overlay support.
+- Compact Overlay support (i.e., **picture-in-picture** for the app on PC).
 - More **Cortana** commands.
 - Other stuff _we_ want.
 - Other stuff _you_ want.
@@ -83,8 +109,8 @@ Music Archive_ (_etree_ collection) to **all** your Windows 10 devices.
 Music and metadata is provided by the Internet Archive's [_Live Music
 Archive_][link-etree] and its contributors.
 
-#### What is the Live Music Archive all about?
-
+> **What is the Live Music Archive all about?**
+>
 > This audio archive is an online public library of live recordings available
 > for royalty-free, no-cost public downloads. We only host material by
 > trade-friendly artists: those who like the idea of noncommercial distribution
