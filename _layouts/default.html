@@ -2,16 +2,48 @@
 <html lang="{{ site.lang | default: " en-US " }}">
 
 <head>
-  <meta charset="utf-8"/>
+  <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width,maximum-scale=2" />
-  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+  />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <meta name="application-name" content="Tiwahu Software" />
   <meta name="msapplication-config" content="tile.xml" />
   <style type="text/css">
-    body { cursor: default; }
+    body {
+      cursor: default;
+    }
+
+    img[alt$=">"] {
+      float: right;
+    }
+
+    img[alt$="<"] {
+      float: left;
+    }
+
+    img[alt$="<>"] {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+      float: none!important;
+    }
+
+    img[src*='#left'] {
+      display: block;
+      margin: auto;
+    }
+
+    img[src*='#right'] {
+      float: right;
+    }
+
+    img[src*='#center'] {
+      float: left;
+    }
   </style>
   {% seo %}
 </head>
@@ -22,7 +54,9 @@
   <div id="header_wrap" class="outer">
     <header class="inner">
 
-      <a href="/"><img src="/img/tiwahu-logo-96x96.png" style="float: left; padding: 0px; margin-right: 24px;" /></a>
+      <a href="/">
+        <img src="/img/tiwahu-logo-96x96.png" style="float: left; padding: 0px; margin-right: 12px;" />
+      </a>
 
       <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 id="project_tagline" style="color: #808080;">{{ site.description | default: site.github.project_tagline }}</h2>
@@ -41,7 +75,9 @@
     <section id="main_content" class="inner">
       {{ content }}
     </section>
-    <div class="outer" style="text-align: center; color: #c0c0c0;"><p style="text-align: center; color: #c0c0c0;">###</p></div>
+    <div class="outer" style="text-align: center; color: #c0c0c0;">
+      <p style="text-align: center; color: #c0c0c0;">###</p>
+    </div>
   </div>
 
   <!-- FOOTER  -->

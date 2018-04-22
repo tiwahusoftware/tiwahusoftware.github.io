@@ -1,5 +1,5 @@
 # Redirect
 
 <script type="application/javascript">
-document.writeLine("TEST!");
+window.alert("test!");
 </script>
