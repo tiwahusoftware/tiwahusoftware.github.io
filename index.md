@@ -2,7 +2,7 @@
 
 ## Llama Music
 
-[![Llama Music](img/store-lma-252x252.png)][link-store-lma]
+[![Llama Music](img/store-lma-252x252.png#right)][link-store-lma]
 
 > A new app coming soon to all your Windows 10 devices...
 
@@ -95,7 +95,7 @@ Archive][link-etree] and its contributors.
 
 ## Live Music Access
 
-[![Live Music Access](img/store-lma-legacy-252x252.png)][link-store-lma-legacy]
+[![Live Music Access](img/store-lma-legacy-252x252.png#right)][link-store-lma-legacy]
 
 If you are still running Windows Phone 8, [get this app version instead][link-store-lma-legacy].
 
