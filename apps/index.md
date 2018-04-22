@@ -16,7 +16,7 @@
 
 ## Coming Soon
 
-> Another fun project starting soon...
+Another fun project starting soon...
 
 [store-lma-img]: ../img/store-lma-252x252.png
 [store-lma-legacy-img]: ../img/store-lma-legacy-252x252.png
