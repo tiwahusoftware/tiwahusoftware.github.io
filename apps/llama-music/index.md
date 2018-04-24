@@ -5,7 +5,7 @@
 > A new app coming soon to all your Windows 10 devices...
 
 **Llama Music** is an unofficial Live Music Archive client and spiritual
-successor to the highly-rated [**Live Music Access**](../live-music-access) app enjoyed on Windows
+successor to the highly-rated [**Live Music Access**](../live-music-access/index.md) app enjoyed on Windows
 Phone.
 
 **Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live
