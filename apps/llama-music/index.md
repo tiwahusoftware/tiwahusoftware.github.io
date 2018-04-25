@@ -2,7 +2,7 @@
 
 [![Llama Music](/img/store-lma-252x252.png#right)][link-store-lma]
 
-> Now available on nearly all your Windows 10 devices!
+> [Now available][link-store-lma] on nearly all your Windows 10 devices!
 
 **Llama Music** is an unofficial Live Music Archive client and spiritual
 successor to the highly-rated [**Live Music Access**](../live-music-access/index.md) app enjoyed on Windows
