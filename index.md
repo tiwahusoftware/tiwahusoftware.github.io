@@ -6,7 +6,7 @@
 
 [![Llama Music](img/store-lma-252x252.png#right)][link-store-lma]
 
-> A new app coming soon to all your Windows 10 devices...
+> Now available on nearly all your Windows 10 devices!
 
 [**Llama Music**][llama music] is an unofficial Live Music Archive client and
 spiritual successor to the highly-rated [**Live Music Access**][lma-legacy] app
@@ -15,6 +15,8 @@ enjoyed on Windows Phone.
 **Browse**, **search**, and **stream** concert recordings from Internet
 Archive's [Live Music Archive][link-etree] (_etree_) collection to **all** your
 Windows 10 devices.
+
+[![Get it now!](img/download-from-windows-10-app-store.png)][link-store-lma]
 
 #### Feature Highlights
 
