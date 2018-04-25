@@ -11,7 +11,7 @@ Phone.
 **Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live
 Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devices.
 
-[![Get it now!](/img/download-from-windows-10-app-store.png)][link-store-lma]
+[![Get it now!](/img/download-from-windows-10-app-store.png#right)][link-store-lma]
 
 ## Feature Highlights
 
