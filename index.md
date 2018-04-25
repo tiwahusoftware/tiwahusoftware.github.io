@@ -16,8 +16,6 @@ enjoyed on Windows Phone.
 Archive's [Live Music Archive][link-etree] (_etree_) collection to **all** your
 Windows 10 devices.
 
-[![Get it now!](img/download-from-windows-10-app-store.png#right)][link-store-lma]
-
 #### Feature Highlights
 
 - **Free**.
@@ -27,6 +25,8 @@ Windows 10 devices.
 - Background audio support.
 - **Gapless** playback (_finally!_).
 - [...and much, much more!][llama music features]
+
+[![Get it now!](img/download-from-windows-10-app-store.png)][link-store-lma]
 
 ----
 
