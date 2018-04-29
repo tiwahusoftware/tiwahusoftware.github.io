@@ -2,7 +2,7 @@
 
 [![Live Music Access](/img/store-lma-legacy-252x252.png#right)][link-store-lma-legacy]
 
-If you are still running Windows Phone 8, [use this version instead][link-store-lma-legacy].
+If you are still running Windows Phone 8, [use this version][link-store-lma-legacy] instead of [Llama Music](../llama-music/index.md).
 
 ## Reviews
 
@@ -75,6 +75,8 @@ If you are still running Windows Phone 8, [use this version instead][link-store-
   - Join shared concerts at a relative time or paused position.
   - Add upcoming event information (powered by JamBase) to calendar.
   - and much more...
+
+[![Get it now!](/img/windowsphone_208x67_blu.png)][link-store-lma-legacy]
 
 [link-etree]: https://archive.org/details/etree/
 [link-store-lma]: https://www.microsoft.com/store/apps/9WZDNCRDCNJT
