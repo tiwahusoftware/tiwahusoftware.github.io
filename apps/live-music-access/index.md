@@ -6,11 +6,23 @@ If you are still running Windows Phone 8, [use this version][link-store-lma-lega
 
 ## Reviews
 
+> _The one reason I hang onto the old windows phone._
+
 > _Great app for listening to a lot of good live music recordings from a wide range of bands._
 
 > _The best live music app, I have come across._
 
 > _Best app ever works like nobody's business waited for a long time for this_
+
+> _Amazing app, has so many live concerts, something I've been looking for for a long time_
+
+> _I love this app_
+
+> _Excellent app! Add a Windows Desktop version and you get the fifth star!_
+
+> _All ALO, all moe. all day, everywhere. This program is what makes the interwebs the best invention. Ever.* *some minor exceptions like microwave ovens, Hot Pockets and legal bud._
+
+> _Love the UI. Cool way to listen to free live music. Random button is nice._
 
 ## Version Highlights
 
