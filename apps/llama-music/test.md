@@ -2,8 +2,6 @@
 
 # Llama Music
 
-[![Llama Music](/img/store-lma-252x252.png#right)][link-store-lma]
-
 > [Now available][link-store-lma] on nearly all your Windows 10 devices!
 
 **Llama Music** is an unofficial Live Music Archive client and spiritual
@@ -13,7 +11,7 @@ Phone.
 **Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live
 Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devices.
 
-<div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT"></div>
+<div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT" style="float: right;"></div>
 <script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
 <script>
 mspb('9WZDNCRDCNJT', function(badge) {
