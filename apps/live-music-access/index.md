@@ -1,8 +1,14 @@
 # Live Music Access
 
-[![Live Music Access](/img/store-lma-legacy-252x252.png#right)][link-store-lma-legacy]
+<div id="mspb-9WZDNCRDCNJX" class="9WZDNCRDCNJX" style="float: right; margin: 12px;"></div>
+<script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
+<script>
+mspb('9WZDNCRDCNJX', function(badge) {
+document.getElementById('mspb-9WZDNCRDCNJX').innerHTML = badge;
+});
+</script>
 
-If you are still running Windows Phone 8, [use this version][link-store-lma-legacy] instead of [Llama Music](../llama-music/index.md).
+[This app][link-store-lma-legacy] runs on Windows Phone 8 and Windows 10 Mobile; however, if you have Windows 10, try [Llama Music](../llama-music/index.md) instead.
 
 ## Reviews
 

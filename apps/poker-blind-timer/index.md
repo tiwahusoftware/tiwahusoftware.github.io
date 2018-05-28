@@ -1,6 +1,12 @@
 # Poker Blind Timer
 
-[![Poker Blind Timer][store-img]][store-link]
+<div id="mspb-9NBLGGGZJNHK" class="9NBLGGGZJNHK" style="float: right; margin: 12px;"></div>
+<script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
+<script>
+mspb('9NBLGGGZJNHK', function(badge) {
+document.getElementById('mspb-9NBLGGGZJNHK').innerHTML = badge;
+});
+</script>
 
 A simple blind timer for home poker tournaments.
 

@@ -1,12 +1,18 @@
+
+
 # Llama Music
 
-[![Llama Music](/img/store-lma-252x252.png#right)][link-store-lma]
+<div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT" style="float: right; margin: 12px;"></div>
+<script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
+<script>
+mspb('9WZDNCRDCNJT', function(badge) {
+document.getElementById('mspb-9WZDNCRDCNJT').innerHTML = badge;
+});
+</script>
 
-> [Now available][link-store-lma] on nearly all your Windows 10 devices!
-
-**Llama Music** is an unofficial Live Music Archive client and spiritual
-successor to the highly-rated [**Live Music Access**](../live-music-access/index.md) app enjoyed on Windows
-Phone.
+**Llama Music** is an unofficial Live Music Archive client for Windows 10 and a
+spiritual successor to the highly-rated [**Live Music Access**](../live-music-access/index.md)
+app enjoyed on Windows Phone.
 
 **Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live
 Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devices.
@@ -63,8 +69,6 @@ Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devic
 - ...and a lot of **attention to detail**: natural sorting of band names,
   transition arrow standardization, track title data cleansing, metadata
   sanitizations, etc.
-
-[![Get it now!](/img/download-from-windows-10-app-store.png)][link-store-lma]
 
 ### Coming Soon
 
