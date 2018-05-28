@@ -1,5 +1,3 @@
-
-
 # Llama Music
 
 <div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT" style="float: right; margin: 12px;"></div>
@@ -69,6 +67,8 @@ Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devic
 - ...and a lot of **attention to detail**: natural sorting of band names,
   transition arrow standardization, track title data cleansing, metadata
   sanitizations, etc.
+
+[![Exclusively available for Windows Phone!](/img/download-from-windows-10-app-store.png)][link-store-lma]
 
 ### Coming Soon
 

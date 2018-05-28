@@ -94,7 +94,7 @@ document.getElementById('mspb-9WZDNCRDCNJX').innerHTML = badge;
   - Add upcoming event information (powered by JamBase) to calendar.
   - and much more...
 
-[![Get it now!](/img/windowsphone_208x67_blu.png)][link-store-lma-legacy]
+[![Exclusively available for Windows Phone!](/img/windowsphone_208x67_blu.png)][link-store-lma-legacy]
 
 [link-etree]: https://archive.org/details/etree/
 [link-store-lma]: https://www.microsoft.com/store/apps/9WZDNCRDCNJT
