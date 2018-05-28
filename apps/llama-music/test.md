@@ -4,13 +4,6 @@
 
 > [Now available][link-store-lma] on nearly all your Windows 10 devices!
 
-**Llama Music** is an unofficial Live Music Archive client and spiritual
-successor to the highly-rated [**Live Music Access**](../live-music-access/index.md) app enjoyed on Windows
-Phone.
-
-**Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live
-Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devices.
-
 <div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT" style="float: right;"></div>
 <script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
 <script>
@@ -18,6 +11,13 @@ mspb('9WZDNCRDCNJT', function(badge) {
 document.getElementById('mspb-9WZDNCRDCNJT').innerHTML = badge;
 });
 </script>
+
+**Llama Music** is an unofficial Live Music Archive client for Windows 10 and a
+spiritual successor to the highly-rated [**Live Music Access**](../live-music-access/index.md) 
+app enjoyed on Windows Phone.
+
+**Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live
+Music Archive][link-etree] (_etree_ collection) to **all** your Windows 10 devices.
 
 ## Feature Highlights
 
