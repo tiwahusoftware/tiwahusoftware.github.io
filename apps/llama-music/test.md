@@ -4,7 +4,7 @@
 
 > [Now available][link-store-lma] on nearly all your Windows 10 devices!
 
-<div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT" style="float: right;"></div>
+<div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT" style="float: right; margin: 12px;"></div>
 <script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
 <script>
 mspb('9WZDNCRDCNJT', function(badge) {
