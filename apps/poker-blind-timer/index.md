@@ -1,5 +1,7 @@
 # Poker Blind Timer
 
+> Unfortunately, no longer available in the Microsoft Store.
+
 <div id="mspb-9NBLGGGZJNHK" class="9NBLGGGZJNHK" style="float: right; margin: 12px;"></div>
 <script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
 <script>
