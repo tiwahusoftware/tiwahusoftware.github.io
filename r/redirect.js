@@ -69,6 +69,10 @@ function processRedirect() {
         app = "Llama Music";
         // uggh, the tiwahu-lma:open:// thing "fixes" a lower casing that Windows 10 seems to do, since the id looks like a domain name.
         link = "tiwahu-lma://open/" + ((lma != null) ? lma : "");
+        // app = "Live Music Archive : Internet Archive";
+        // var parts = lma.split("/", 2);
+        // link = "https://archive.org/details/" + parts[0];
+        // //link = "https://archive.org/embed/" + parts[0] + "&playlist=1";
     }
     else {
         app = "Tiwahu Software LLC";

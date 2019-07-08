@@ -25,7 +25,6 @@ function debugWriteline(s: string = "", tag: string = "div")
 	}
 }
 
-
 function requestSearch(key: string, defaultValue: string = ""): string
 {
 	key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
@@ -86,24 +85,14 @@ function processRedirect()
 
 	if (lma != null)
 	{
-		if (isWP)
-		{
-			app = "Llama Music";
-			// uggh, the tiwahu-lma:open:// thing "fixes" a lower casing that Windows 10 seems to do, since the id looks like a domain name.
-			link = "tiwahu-lma://open/" + ((lma != null) ? lma : "");
-		}
-		else
-		{
-			app = "Live Music Archive : Internet Archive";
-			var parts = lma.split("/", 2);
-			link = "https://archive.org/details/" + parts[0];
-			//link = "https://archive.org/embed/" + parts[0] + "&playlist=1";
-		}
-	}
-	else if ((window.top.location.hash == "#lma") || (window.top.location.search == "?lma"))
-	{
-		app = "Live Music Access | Windows Phone Store";
-		link = "https://windowsphone.com/s?appid=411b8788-27a3-409a-a584-f381f4865e21";
+    app = "Llama Music";
+    // uggh, the tiwahu-lma:open:// thing "fixes" a lower casing that Windows 10 seems to do, since the id looks like a domain name.
+    link = "tiwahu-lma://open/" + ((lma != null) ? lma : "");
+
+    // app = "Live Music Archive : Internet Archive";
+    // var parts = lma.split("/", 2);
+    // link = "https://archive.org/details/" + parts[0];
+    // //link = "https://archive.org/embed/" + parts[0] + "&playlist=1";
 	}
 	else
 	{
@@ -124,7 +113,7 @@ function processRedirect()
 
 	if (link != null)
 	{
-		var message = (isWP) ? "Back to the app" : "Redirect";
+		var message = "Back to the app"; // : "Redirect";
 
 		var h2 = document.createElement("h2");
 		var a = document.createElement("a");
@@ -164,7 +153,6 @@ function processRedirect()
 
 var debug = (requestSearch("d", null) != null);
 var ua = ((navigator) && (navigator.userAgent)) ? navigator.userAgent : "";
-var isWP = ((ua.indexOf("Windows Phone 8.") >= 0) || (ua.indexOf("Windows Phone 10.") >= 0));
 var link = null;
 var app = null;
 var redirected = false;
