@@ -16,4 +16,8 @@
 
 [gfc2004-02-12](tiwahu-lma://open/gfc2004-02-12)
 
+----
+
+<script type="application/javascript" src="/r/redirect.js"></script>
+
 \#\#\#
