@@ -176,7 +176,7 @@ var app = null;
 var site = null;
 var url = null;
 var redirected = false;
-var output = document.getElementById("console") || document.body;
+var output = document.getElementById("console") || document.getElementById("main_content") || document.body;
 
 window.onload = () =>
 {
