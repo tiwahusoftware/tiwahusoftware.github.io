@@ -136,7 +136,7 @@ function processRedirect()
 		var line = document.createElement("h3");
 		var a = document.createElement("a");
 		a.setAttribute("style", "text-decoration:none;");
-		a.setAttribute("href", link);
+		a.setAttribute("href", url);
 		a.innerText = site;
 
 		line.appendChild(a);
