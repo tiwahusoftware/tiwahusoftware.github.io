@@ -61,10 +61,7 @@ function getQueryVariable(key, defaultValue) {
     return defaultValue;
 }
 function processRedirect() {
-    var lma = requestHashPath("lma", null);
-    if (lma == null) {
-        lma = requestSearch("lma", null);
-    }
+    var lma = requestHashPath("lma", null) || requestSearch("lma", null);
     if (lma != null) {
         app = "Llama Music";
         // uggh, the tiwahu-lma:open:// thing "fixes" a lower casing that Windows 10 seems to do, since the id looks like a domain name.

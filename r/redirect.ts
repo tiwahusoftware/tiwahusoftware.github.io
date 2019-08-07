@@ -77,22 +77,18 @@ function getQueryVariable(key: string, defaultValue: string = ""): string
 
 function processRedirect()
 {
-	var lma = requestHashPath("lma", null);
-	if (lma == null)
-	{
-		lma = requestSearch("lma", null);
-	}
+	var lma = requestHashPath("lma", null) || requestSearch("lma", null);
 
 	if (lma != null)
 	{
-    app = "Llama Music";
-    // uggh, the tiwahu-lma:open:// thing "fixes" a lower casing that Windows 10 seems to do, since the id looks like a domain name.
-    link = "tiwahu-lma://open/" + ((lma != null) ? lma : "");
+		app = "Llama Music";
+		// uggh, the tiwahu-lma:open:// thing "fixes" a lower casing that Windows 10 seems to do, since the id looks like a domain name.
+		link = "tiwahu-lma://open/" + ((lma != null) ? lma : "");
 
-    // app = "Live Music Archive : Internet Archive";
-    // var parts = lma.split("/", 2);
-    // link = "https://archive.org/details/" + parts[0];
-    // //link = "https://archive.org/embed/" + parts[0] + "&playlist=1";
+		// app = "Live Music Archive : Internet Archive";
+		// var parts = lma.split("/", 2);
+		// link = "https://archive.org/details/" + parts[0];
+		// //link = "https://archive.org/embed/" + parts[0] + "&playlist=1";
 	}
 	else
 	{
