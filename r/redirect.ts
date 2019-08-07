@@ -19,9 +19,9 @@ function debugWriteline(s: string = "", tag: string = "div")
 {
 	if (s != null)
 	{
-		document.write("<" + tag + ">");
+		document.write(`<${tag}>`);
 		document.write((s.length > 0) ? htmlEncode(s) : "&nbsp;");
-		document.write("</" + tag + ">");
+		document.write(`</${tag}>`);
 	}
 }
 
@@ -82,13 +82,14 @@ function processRedirect()
 	if (lma != null)
 	{
 		app = "Llama Music";
-		// uggh, the tiwahu-lma:open:// thing "fixes" a lower casing that Windows 10 seems to do, since the id looks like a domain name.
-		link = "tiwahu-lma://open/" + ((lma != null) ? lma : "");
+		// hostname is case insensitive, so open is used...
+		link = `tiwahu-lma://open/${lma}`;
 
-		// app = "Live Music Archive : Internet Archive";
-		// var parts = lma.split("/", 2);
+		site = "Live Music Archive : Internet Archive";
+		url = `https://archive.org/details/${lma}`;
+
 		// link = "https://archive.org/details/" + parts[0];
-		// //link = "https://archive.org/embed/" + parts[0] + "&playlist=1";
+		// link = "https://archive.org/embed/" + parts[0] + "&playlist=1";
 	}
 	else
 	{
@@ -102,23 +103,44 @@ function processRedirect()
 
 	if (app != null)
 	{
-		var h1 = document.createElement("h1");
-		h1.innerText = app;
-		div.appendChild(h1);
+		var line = document.createElement("h1");
+		line.innerText = app;
+		div.appendChild(line);
+	}
+
+	if (lma != null)
+	{
+		var line = document.createElement("h2");
+		line.innerText = lma;
+		div.appendChild(line);
 	}
 
 	if (link != null)
 	{
 		var message = "Back to the app"; // : "Redirect";
 
-		var h2 = document.createElement("h2");
+		var line = document.createElement("h3");
 		var a = document.createElement("a");
 		a.setAttribute("style", "text-decoration:none;");
 		a.setAttribute("href", link);
 		a.innerText = message;
 
-		h2.appendChild(a);
-		div.appendChild(h2);
+		line.appendChild(a);
+		div.appendChild(line);
+	}
+
+	if (site != null)
+	{
+		div.appendChild(document.createElement("hr"));
+
+		var line = document.createElement("h3");
+		var a = document.createElement("a");
+		a.setAttribute("style", "text-decoration:none;");
+		a.setAttribute("href", link);
+		a.innerText = site;
+
+		line.appendChild(a);
+		div.appendChild(line);
 	}
 
 	if (debug)
@@ -151,6 +173,8 @@ var debug = (requestSearch("d", null) != null);
 var ua = ((navigator) && (navigator.userAgent)) ? navigator.userAgent : "";
 var link = null;
 var app = null;
+var site = null;
+var url = null;
 var redirected = false;
 var output = document.getElementById("console") || document.body;
 
