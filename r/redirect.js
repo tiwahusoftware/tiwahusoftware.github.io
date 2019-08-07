@@ -78,18 +78,18 @@ function processRedirect() {
     var div = document.createElement("div");
     div.setAttribute("style", "font-size:x-small;color:#808080;");
     if (app != null) {
-        var line = document.createElement("h1");
+        var line = document.createElement("h2");
         line.innerText = app;
         div.appendChild(line);
     }
     if (lma != null) {
-        var line = document.createElement("h2");
+        var line = document.createElement("h3");
         line.innerText = lma;
         div.appendChild(line);
     }
     if (link != null) {
         var message = "Back to the app"; // : "Redirect";
-        var line = document.createElement("h3");
+        var line = document.createElement("h4");
         var a = document.createElement("a");
         a.setAttribute("style", "text-decoration:none;");
         a.setAttribute("href", link);
@@ -99,7 +99,7 @@ function processRedirect() {
     }
     if (site != null) {
         div.appendChild(document.createElement("hr"));
-        var line = document.createElement("h3");
+        var line = document.createElement("h4");
         var a = document.createElement("a");
         a.setAttribute("style", "text-decoration:none;");
         a.setAttribute("href", url);
