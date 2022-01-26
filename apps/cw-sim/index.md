@@ -12,7 +12,6 @@
 <!-- /vscode-markdown-toc -->
 
 
-
 ## <a name='About'></a>About
 
 ```
@@ -82,8 +81,10 @@ This is a simple beta version with limited functionality.
 
 ### <a name='Setup'></a>Setup
 
-[Download][download-link], extract to a directory, open a command prompt in the directory, and run `cwsim --help` from a command prompt.
+- [Download][download-link], 
+- open a command prompt in the directory of the executable, and 
+- run `cwsim --help` from a command prompt!
 
 
-[download-link]: /download/cw-sim/beta/cwsim-v0.1.414-win-x64.zip
+[download-link]: /download/cw-sim/beta/cwsim.exe
 
