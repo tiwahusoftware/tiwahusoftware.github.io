@@ -11,7 +11,7 @@
 ║ │  hEBigGesTgUnSTheRiGHTofwa  │  /////////////////////////////////// ║
 ║ │  GoestOthebiGGEstGUnsthERI  │  //                               // ║
 ║ │  BiGGEStGuNSTHeRiGhtofwaYG  │  //  Tiwahu Car Wars Simulator    // ║
-║ │  AYgOEStoTHEbIgGeSTguNstHe  │  //  Copyright &copy; 2022 Tim Huber.  // ║
+║ │  AYgOEStoTHEbIgGeSTguNstHe  │  //  Copyright c 2022 Tim Huber.  // ║
 ║ │  GgesTGunstHerIGHtOFWAYgOE  │  //  All Rights Reserved.         // ║
 ║ │  FwayG ________   ___ UNst  │  //                               // ║
 ║ │  eStG / ___/ _ | / _ \ eSt  │  //  Tiwahu.CarWars.Sim.Console   // ║
@@ -63,9 +63,13 @@ Go buy more Car Wars products at: https://carwars.sjgames.com/
 
 ## [Download][download-link]
 
-### Help
+:construction: This is a simple beta version with limited functionality. :construction:
 
-Extract to a directory, open command prompt in the directory, and run `cwsim --help` from a command prompt.
+> If you want a Linux of MacOS version, let me know.
+
+### Setup
+
+[Download][download-link], extract to a directory, open a command prompt in the directory, and run `cwsim --help` from a command prompt.
 
 
 [download-link]: "/download/cw-sim/beta/cwsim-v0.1.414-win-x64.zip"
