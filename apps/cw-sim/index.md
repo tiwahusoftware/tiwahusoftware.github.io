@@ -1,8 +1,19 @@
 # Car Wars Simulator
 
-[[_TOC_]]
+<!-- vscode-markdown-toc -->
+* [About](#About)
+* [Download](#Download)
+    * [Setup](#Setup)
 
-## About
+<!-- vscode-markdown-toc-config
+    numbering=false
+    autoSave=false
+    /vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+
+## <a name='About'></a>About
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
@@ -61,16 +72,18 @@ Go buy more Car Wars products at: https://carwars.sjgames.com/
 
 ```
 
-## [Download][download-link]
+## <a name='Download'></a>Download
 
-:construction: This is a simple beta version with limited functionality. :construction:
+<big>[Download Now!][download-link]</big>
+
+This is a simple beta version with limited functionality.
 
 > Windows (x64) is currently published for download. If you need a Linux or MacOS version, let me know.
 
-### Setup
+### <a name='Setup'></a>Setup
 
 [Download][download-link], extract to a directory, open a command prompt in the directory, and run `cwsim --help` from a command prompt.
 
 
-[download-link]: "/download/cw-sim/beta/cwsim-v0.1.414-win-x64.zip"
+[download-link]: /download/cw-sim/beta/cwsim-v0.1.414-win-x64.zip
 
