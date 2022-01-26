@@ -65,7 +65,7 @@ Go buy more Car Wars products at: https://carwars.sjgames.com/
 
 :construction: This is a simple beta version with limited functionality. :construction:
 
-> If you want a Linux of MacOS version, let me know.
+> Windows (x64) is currently published for download. If you need a Linux or MacOS version, let me know.
 
 ### Setup
 
