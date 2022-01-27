@@ -73,18 +73,18 @@ Go buy more Car Wars products at: https://carwars.sjgames.com/
 
 ## <a name='Download'></a>Download
 
-<big>[Download Now!][download-link]</big>
+- [Windows][download-link-win-x64] ^(x64)^
+- [Linux][download-link-linux-x64] ^(x64)^
 
 This is a simple beta version with limited functionality.
 
-> Windows (x64) is currently published for download. If you need a Linux or MacOS version, let me know.
+> Windows and Linux (x64) is currently published for download. If you need a MacOS version, let me know.
 
 ### <a name='Setup'></a>Setup
 
-- [Download][download-link], 
-- open a command prompt in the directory of the executable, and 
-- run `cwsim --help` from a command prompt!
+1. [Download](#Download)
+2. Open a command prompt in the directory of the executable
+3. Run `cwsim --help` from the command prompt
 
-
-[download-link]: /download/cw-sim/beta/cwsim.exe
-
+[download-link-win-x64]: /download/cw-sim/beta/win-x64/cwsim.exe
+[download-link-linux-x64]: /download/cw-sim/beta/linux-x64/cwsim
