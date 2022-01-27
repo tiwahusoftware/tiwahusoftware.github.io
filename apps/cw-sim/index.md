@@ -73,12 +73,12 @@ Go buy more Car Wars products at: https://carwars.sjgames.com/
 
 ## <a name='Download'></a>Download
 
-- [Windows][download-link-win-x64] ^(x64)^
-- [Linux][download-link-linux-x64] ^(x64)^
+- [Windows][download-link-win-x64] <sup>(x64)</sup>
+- [Linux][download-link-linux-x64] <sup>(x64)</sup>
 
 This is a simple beta version with limited functionality.
 
-> Windows and Linux (x64) is currently published for download. If you need a MacOS version, let me know.
+> Windows <sup>(x64)</sup> and Linux <sup>(x64)</sup> is currently published for download. If you need a MacOS version, let me know.
 
 ### <a name='Setup'></a>Setup
 
