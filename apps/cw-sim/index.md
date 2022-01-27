@@ -2,6 +2,7 @@
 
 <!-- vscode-markdown-toc -->
 * [About](#About)
+    * [Description](#Description)
 * [Download](#Download)
     * [Setup](#Setup)
 
@@ -71,14 +72,23 @@ Go buy more Car Wars products at: https://carwars.sjgames.com/
 
 ```
 
+### <a name='Description'></a>Description
+
+This is a simple beta version with limited functionality. The command line interface tries to be user-friendly, but was intended for just me. Some commands output pretty pictures.
+
+Highlights are currently the construction of builds with the `build` command.  Use the `-i` option for interactive builds. The auto-generated builds `-g` have many options, but it is mostly an experiment for a future idea.
+
+The `list` and `cards` commands are useful for advanced build construction.  The `roll` command is simple and reliable, while the interactive part is poised for future enhancements.
+
+Parts of the program are obfuscated or removed.  You'd know that if you tried the `--about` option. 
+
+> Let me know if you need a MacOS version.
+
 ## <a name='Download'></a>Download
 
-- [Windows][download-link-win-x64] <sup>(x64)</sup>
-- [Linux][download-link-linux-x64] <sup>(x64)</sup>
-
-This is a simple beta version with limited functionality.
-
-> Windows <sup>(x64)</sup> and Linux <sup>(x64)</sup> is currently published for download. If you need a MacOS version, let me know.
+- [win-x64][download-link-win-x64]
+- [linux-x64][download-link-linux-x64]
+- [linux-arm][download-link-linux-arm]
 
 ### <a name='Setup'></a>Setup
 
@@ -88,3 +98,4 @@ This is a simple beta version with limited functionality.
 
 [download-link-win-x64]: /download/cw-sim/beta/win-x64/cwsim.exe
 [download-link-linux-x64]: /download/cw-sim/beta/linux-x64/cwsim
+[download-link-linux-arm]: /download/cw-sim/beta/linux-arm/cwsim
