@@ -26,7 +26,7 @@
 ║ │  GgesTGunstHerIGHtOFWAYgOE  │  // All Rights Reserved.          // ║
 ║ │  FwayG ________   ___ UNst  │  //                               // ║
 ║ │  eStG / ___/ _ | / _ \ eSt  │  // Tiwahu.CarWars.Sim.Console    // ║
-║ │  Tof / /__/ __ |/ , _/ GUN  │  // 0.4.152-beta+d6456a1023       // ║
+║ │  Tof / /__/ __ |/ , _/ GUN  │  // 0.4.155-beta+42dc2303a1       // ║
 ║ │  tgU \___/_/ |_/_/|_| stOT  │  //                               // ║
 ║ │   _      _____   ___  ____  │  /////////////////////////////////// ║
 ║ │  | | /| / / _ | / _ \/ __/  │                                      ║
