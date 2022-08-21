@@ -26,7 +26,7 @@
 ║ │  GgesTGunstHerIGHtOFWAYgOE  │  // All Rights Reserved.          // ║
 ║ │  FwayG ________   ___ UNst  │  //                               // ║
 ║ │  eStG / ___/ _ | / _ \ eSt  │  // Tiwahu.CarWars.Sim.Console    // ║
-║ │  Tof / /__/ __ |/ , _/ GUN  │  // 0.4.149-beta+44d66d6493       // ║
+║ │  Tof / /__/ __ |/ , _/ GUN  │  // 0.4.152-beta+d6456a1023       // ║
 ║ │  tgU \___/_/ |_/_/|_| stOT  │  //                               // ║
 ║ │   _      _____   ___  ____  │  /////////////////////////////////// ║
 ║ │  | | /| / / _ | / _ \/ __/  │                                      ║
@@ -54,21 +54,20 @@
   │ [*]: http://www.sjgames.com/general/online_policy.html           │
   └──────────────────────────────────────────────────────────────────┘
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-    HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-    WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-    OTHER DEALINGS IN THE SOFTWARE.
-    
-    Any cars portrayed in this app are fictitious. No identification
-    with actual cars (living or deceased) is intended or should be
-    inferred. Some 1/64th scale cars were painted during the
-    programming of this app.
-
 Go buy more Car Wars products at: https://carwars.sjgames.com/
+
+  ╔═══════════════════════════════════════════════════════╗
+  ║ Specify '--help' for available commands and options.  ║
+  ║ Specify '--about' for more ASCII art and information. ║
+  ╚═══════════════════════════════════════════════════════╝
+
+Examples:
+
+    cwsim --help
+    cwsim --about
+    cwsim roll yyyyrg
+    cwsim list --help
+    cwsim build --help
 ```
 
 ### <a name='Description'></a>Description
@@ -78,10 +77,17 @@ This is a simple beta version with limited functionality. The command line inter
 Highlights are currently the construction of builds with the `build` command.
 - Use the `-i` option for interactive builds (e.g., `cwsim build -i`).
 - Auto-generated builds `-g` have many options, but are mostly an experiment for a future idea.
+- For example, **TCWB** builds can be constructed manually or automatically-generated and saved in text-based files or images of your creation.
+
+  ![Example of random build](/img/cw-sim/random-build-example.png)
+
+- The **TCWB** car configuration build codes can be shared with others.
 
 The `list` and `cards` commands are useful for advanced build construction and planning.
 
 The `roll` command is simple and reliable, while the interactive part is poised for future enhancements. See how to use it with `cwsim roll --help`.
+
+In the future, the builds could participate in game simulations and many simulations can produce Monte Carlo simulation results.
 
 Parts of the program are obfuscated or removed.  You'd know that if you read the `--about` option text.
 
@@ -96,11 +102,13 @@ Parts of the program are obfuscated or removed.  You'd know that if you read the
 
 > To download and run on *Windows*, you may need to trust the executable multiple times.
 
-> For *Linux*, the following script may be useful:
+> On *Linux* (or *Windows Subsystem for Linux*), the following script may be useful for installing and verifying the `cwsim` executable version:
 >
 > ```bash
 > sudo wget https://www.tiwahu.com/download/cw-sim/beta/linux-x64/cwsim -O /usr/local/bin/cwsim
 > sudo chmod +x /usr/local/bin/cwsim
+> cd ~
+> cwsim
 > ```
 
 ## <a name='Setup'></a>Setup
