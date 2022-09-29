@@ -26,20 +26,20 @@
 ║ │  GgesTGunstHerIGHtOFWAYgOE  │  // All Rights Reserved.          // ║
 ║ │  FwayG ________   ___ UNst  │  //                               // ║
 ║ │  eStG / ___/ _ | / _ \ eSt  │  // Tiwahu.CarWars.Sim.Console    // ║
-║ │  Tof / /__/ __ |/ , _/ GUN  │  // 0.4.155-beta+42dc2303a1       // ║
+║ │  Tof / /__/ __ |/ , _/ GUN  │  // 0.5.78-beta+3def328a0b        // ║
 ║ │  tgU \___/_/ |_/_/|_| stOT  │  //                               // ║
 ║ │   _      _____   ___  ____  │  /////////////////////////////////// ║
 ║ │  | | /| / / _ | / _ \/ __/  │                                      ║
 ║ │  | |/ |/ / __ |/ , _/\ \    │                                      ║
 ║ │  |__/|__/_/ |_/_/|_/___/ I  │        an unofficial "game aid"      ║
-║ │                         gG  │                                      ║
-║ │  tHEriGHtoFwaygOeStOthEbiG  │                  for                 ║
-║ │  NStHErIgHt     GoEStOtHEb  │                                      ║
-║ │  erightoFW  Sim  oTHEbigge  │          ┌─────────────────┐         ║
-║ │  GUnsTHErIg     aygOeStoTh  │          │ C A R   W A R S │         ║
-║ │  IghTOfWAYgOeStOTHeBIgGeSt  │          │ (sixth edition) │         ║
-║ │  sTGunStHErightOFWaygOEsTO  │          └─────────────────┘         ║
-║ │                             │                                      ║
+║ │                         gG  │           (REDACTED version)         ║
+║ │  tHEriGHtoFwaygOeStOthEbiG  │                                      ║
+║ │  NStHErIgHt     GoEStOtHEb  │                  for                 ║
+║ │  erightoFW  Sim  oTHEbigge  │                                      ║
+║ │  GUnsTHErIg     aygOeStoTh  │          ┌─────────────────┐         ║
+║ │  IghTOfWAYgOeStOTHeBIgGeSt  │          │ C A R   W A R S │         ║
+║ │  sTGunStHErightOFWaygOEsTO  │          │ (sixth edition) │         ║
+║ │                             │          └─────────────────┘         ║
 ║ └─────────────────────────────┘                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
@@ -65,7 +65,7 @@ Examples:
 
     cwsim --help
     cwsim --about
-    cwsim roll yyyyrg
+    cwsim roll yyygyr
     cwsim list --help
     cwsim build --help
 ```
