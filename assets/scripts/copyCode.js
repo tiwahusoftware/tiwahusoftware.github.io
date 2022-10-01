@@ -1,25 +1,35 @@
 // https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/
-const codeBlocks = document.querySelectorAll('.code-header + .highlighter-rouge');
-const copyCodeButtons = document.querySelectorAll('.copy-code-button');
+document.querySelectorAll('code[class*=language-]').forEach((codeBlock) => {
+    // TODO: This is my only option until https://github.com/11ty/eleventy-plugin-syntaxhighlight/issues/72 is addressed
+    codeBlock.setAttribute('tabindex', 0);
 
-copyCodeButtons.forEach((copyCodeButton, index) => {
-    const code = codeBlocks[index].innerText;
+    if (codeBlock.getAttribute('data-copyable')) {
+        const code = codeBlock.innerText;
+        const copyCodeButton = document.createElement('button');
+        copyCodeButton.className = 'copy-code-button fs-sm';
+        copyCodeButton.innerText = copyToClipboardButtonStrings.default;
+        // Set an aria label explicitly to clarify the button's action a bit better for screen reader users; sighted users should be able to relate "Copy" to the code block in which the button is positioned
+        copyCodeButton.setAttribute('aria-label', copyToClipboardButtonStrings.ariaLabel);
+        copyCodeButton.type = 'button';
+        codeBlock.parentElement.append(copyCodeButton);
 
-    copyCodeButton.addEventListener('click', () => {
-        // Copy the code to the user's clipboard
-        window.navigator.clipboard.writeText(code);
+        // Accessible alert whose inner text changes when we copy.
+        const copiedAlert = document.createElement('span');
+        copiedAlert.setAttribute('role', 'alert');
+        copiedAlert.classList.add('screen-reader-only');
+        codeBlock.parentElement.append(copiedAlert);
 
-        // Update the button text visually
-        const { innerText: originalText } = copyCodeButton;
-        copyCodeButton.innerText = 'Copied!';
+        copyCodeButton.addEventListener('click', () => {
+            window.navigator.clipboard.writeText(code);
+            copyCodeButton.classList.add('copied');
+            copyCodeButton.innerText = copyToClipboardButtonStrings.copied;
+            copiedAlert.innerText = copyToClipboardButtonStrings.copied;
 
-        // (Optional) Toggle a class for styling the button
-        copyCodeButton.classList.add('copied');
-
-        // After 2 seconds, reset the button to its initial UI
-        setTimeout(() => {
-            copyCodeButton.innerText = originalText;
-            copyCodeButton.classList.remove('copied');
-        }, 2000);
-    });
+            setTimeout(() => {
+                copyCodeButton.classList.remove('copied');
+                copyCodeButton.innerText = copyToClipboardButtonStrings.default;
+                copiedAlert.innerText = '';
+            }, 2000);
+        });
+    }
 });
