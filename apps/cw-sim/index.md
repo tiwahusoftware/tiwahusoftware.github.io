@@ -104,7 +104,6 @@ Parts of the program are obfuscated or removed.  You'd know that if you read the
 
 On *Linux* (or *Windows Subsystem for Linux*), the following script may be useful for installing and verifying the `cwsim` executable version:
 
-{% include codeHeader.html %}
 ```bash
 sudo wget https://www.tiwahu.com/download/cw-sim/beta/linux-x64/cwsim -O /usr/local/bin/cwsim
 sudo chmod +x /usr/local/bin/cwsim
