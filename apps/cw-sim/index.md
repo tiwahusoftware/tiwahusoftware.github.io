@@ -74,20 +74,58 @@ Examples:
 
 This is a simple beta version with limited functionality. The command line interface tries to be user-friendly, but was originally intended for just me. Some commands output pretty pictures (e.g., `render` and `build`).
 
-Highlights are currently the construction of builds with the `build` command.
+Highlights are currently the construction of builds with the `build` command. Rules limit available cards to valid options while the constructing the build; however, incomplete and extreme builds are possible. In their simplest form, builds are represented by a **TCBWB** code (e.g., `tcwb4554xxxx264a734br11z`). For convenience, the code persisted in `*.tcwb` files, which are plain text files with additional information about the build. (They can be opened in your favorite text editor.) These builds are the keystone to single-game and Monte Carlo simulations.
+
 - Use the `-i` option for interactive builds (e.g., `cwsim build -i`).
+
 - Auto-generated builds `-g` have many options, but are mostly an experiment for a future idea.
+    - When using this option, be sure to explore the ability to apply weights to groups of cards.
+
 - For example, **TCWB** builds can be constructed manually or automatically-generated and saved in text-based files or images of your creation.
 
   ![Example of random build](/img/cw-sim/random-build-example.png)
 
 - The **TCWB** car configuration build codes can be shared with others.
 
-The `list` and `cards` commands are useful for advanced build construction and planning.
+The `cards` command is useful for build planning.
+
+- Explore the options with `cwsim cards --help`.
+
+- The `-t` option displays full-size cards (with redacted rule text).
+
+```bash
+$ cwsim cards -t beer
+┌───────────────────────────┐
+│ Armored               (0) │
+│ BEER REFRIGERATOR         │
+│ Accessory ─────────────── │
+│                           │
+│                           │
+│                           │
+│  aygo StOThE I gESTgUnst  │
+│     eRi HTOFW yg ESTO     │
+│       hebIGgE Tguns       │
+│                           │
+│   IGGe TgU ST ErIG tOFW   │
+│   YgOeSTO HeBig eStgunS   │
+│   HEriG TO WA Goes othe   │
+│           iGgEST          │
+│                           │
+│                           │
+│                           │
+│                           │
+│                       <2> │
+│                      Core │
+└───────────────────────────┘
+```
+
+The `list` command, by default, displays human-readable ID values for cards that are used in advanced build construction scenarios.
+
+- The `-f` and `-x` options for filtering and excluding ID values can verify inputs to identical options in the `build` command.
+
+- The other `cwsim list <TYPE>` arguments provide reference material, such as `cwsim list dice` and `cwsim list symbol`.
 
 The `roll` command is simple and reliable, while the interactive part is poised for future enhancements. See how to use it with `cwsim roll --help`.
-
-In the future, the builds could participate in game simulations and many simulations can produce Monte Carlo simulation results.
 
 Parts of the program are obfuscated or removed.  You'd know that if you read the `--about` option text.
 
@@ -102,15 +140,15 @@ Parts of the program are obfuscated or removed.  You'd know that if you read the
 
 > To download and run on *Windows*, you may need to trust the executable multiple times.
 
-On *Linux* (or *Windows Subsystem for Linux*), the following script may be useful for installing and verifying the `cwsim` executable version:
-
-```bash
-sudo wget https://www.tiwahu.com/download/cw-sim/beta/linux-x64/cwsim \
-  -O /usr/local/bin/cwsim
-sudo chmod +x /usr/local/bin/cwsim
-cd ~
-cwsim
-```
+> To download and run on *Linux* (or [*Windows Subsystem for Linux*][wsl]), the following script may be useful for installing and verifying the `cwsim` executable version:
+> 
+> ```bash
+> sudo wget https://www.tiwahu.com/download/cw-sim/beta/linux-x64/cwsim \
+>   -O /usr/local/bin/cwsim
+> sudo chmod +x /usr/local/bin/cwsim
+> cd ~
+> cwsim
+> ```
 
 ## <a name='Setup'></a>Setup
 
@@ -124,3 +162,5 @@ cwsim
 [download-link-linux-arm]: /download/cw-sim/beta/linux-arm/cwsim
 [download-link-linux-arm64]: /download/cw-sim/beta/linux-arm64/cwsim
 [download-link-osx-x64]: /download/cw-sim/beta/osx-x64/cwsim
+
+[wsl]: https://learn.microsoft.com/en-us/windows/wsl/
