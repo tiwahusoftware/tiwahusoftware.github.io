@@ -55,33 +55,12 @@
     pre,
     code {
       font-family: Hack, monospace !important;
+      line-height: 200%;
     }
 
     .copy-code-button {
-      opacity: 0;
-      position: absolute;
-      right: var(--code-block-padding);
-      top: min(var(--code-block-padding) * 1.5, 50%);
-      transform: translateY(-50%);
-      display: none;
-      color: var(--color-code-text);
-      background-color: var(--color-code-overlay-1);
-      padding: spacing("-2") spacing("0");
-      border-radius: spacing("-3");
-      @include font($family: "body", $weight: "regular");
-
-      &:is(.copied, :focus) {
-        opacity: 1;
-      }
-
-      &:is(.copied, :hover) {
-        color: black;
-        background-color: var(--color-code-overlay-2);
-      }
-
-      @include tablet {
-        display: unset;
-      }
+      padding: 2px;
+      display: block;
     }
   </style>
 
