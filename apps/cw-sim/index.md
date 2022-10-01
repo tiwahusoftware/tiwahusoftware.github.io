@@ -74,7 +74,7 @@ Examples:
 
 This is a simple beta version with limited functionality. The command line interface tries to be user-friendly, but was originally intended for just me. Some commands output pretty pictures (e.g., `render` and `build`).
 
-Highlights are currently the construction of builds with the `build` command. Rules limit available cards to valid options while the constructing the build; however, incomplete and extreme builds are possible. In their simplest form, builds are represented by a **TCBWB** code (e.g., `tcwb4554xxxx264a734br11z`). For convenience, the code persisted in `*.tcwb` files, which are plain text files with additional information about the build. (They can be opened in your favorite text editor.) These builds are the keystone to single-game and Monte Carlo simulations.
+Highlights are currently the construction of builds with the `build` command. Rules limit available cards to valid options while the constructing builds; however, incomplete and extreme builds are possible. In their simplest form, builds are represented by a **TCBWB** code (e.g., `tcwb4554xxxx264a734br11z`). For convenience, code persist in `*.tcwb` files, which are plain text files with additional human-readable information about the build. (The `*.tcwb` files can be opened by your preferred text editor.) These build definitions are a keystone to running single-game and Monte Carlo simulations.
 
 - Use the `-i` option for interactive builds (e.g., `cwsim build -i`).
 
@@ -93,31 +93,31 @@ The `cards` command is useful for build planning.
 
 - The `-t` option displays full-size cards (with redacted rule text).
 
-```bash
-$ cwsim cards -t beer
-┌───────────────────────────┐
-│ Armored               (0) │
-│ BEER REFRIGERATOR         │
-│ Accessory ─────────────── │
-│                           │
-│                           │
-│                           │
-│  aygo StOThE I gESTgUnst  │
-│     eRi HTOFW yg ESTO     │
-│       hebIGgE Tguns       │
-│                           │
-│   IGGe TgU ST ErIG tOFW   │
-│   YgOeSTO HeBig eStgunS   │
-│   HEriG TO WA Goes othe   │
-│           iGgEST          │
-│                           │
-│                           │
-│                           │
-│                           │
-│                       <2> │
-│                      Core │
-└───────────────────────────┘
-```
+  ```bash
+  $ cwsim cards -t beer
+  ┌───────────────────────────┐
+  │ Armored               (0) │
+  │ BEER REFRIGERATOR         │
+  │ Accessory ─────────────── │
+  │                           │
+  │                           │
+  │                           │
+  │  aygo StOThE I gESTgUnst  │
+  │     eRi HTOFW yg ESTO     │
+  │       hebIGgE Tguns       │
+  │                           │
+  │   IGGe TgU ST ErIG tOFW   │
+  │   YgOeSTO HeBig eStgunS   │
+  │   HEriG TO WA Goes othe   │
+  │           iGgEST          │
+  │                           │
+  │                           │
+  │                           │
+  │                           │
+  │                       <2> │
+  │                      Core │
+  └───────────────────────────┘
+  ```
 
 The `list` command, by default, displays human-readable ID values for cards that are used in advanced build construction scenarios.
 
@@ -125,7 +125,9 @@ The `list` command, by default, displays human-readable ID values for cards that
 
 - The other `cwsim list <TYPE>` arguments provide reference material, such as `cwsim list dice` and `cwsim list symbol`.
 
-The `roll` command is simple and reliable, while the interactive part is poised for future enhancements. See how to use it with `cwsim roll --help`.
+The `roll` command is simple and reliable, while the interactive part is poised for future enhancements.
+
+- See how to use it with `cwsim roll --help`.
 
 Parts of the program are obfuscated or removed.  You'd know that if you read the `--about` option text.
 
@@ -138,7 +140,7 @@ Parts of the program are obfuscated or removed.  You'd know that if you read the
 - [linux-arm64][download-link-linux-arm64]
 - [osx-x64][download-link-osx-x64]
 
-> To download and run on *Windows*, you may need to trust the executable multiple times.
+> To download and run on *Windows*, you may need to "keep" and/or "trust" the executable multiple times.
 
 > To download and run on *Linux* (or [*Windows Subsystem for Linux*][wsl]), the following script may be useful for installing and verifying the `cwsim` executable version:
 > 
