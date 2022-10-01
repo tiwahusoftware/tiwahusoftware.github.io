@@ -74,7 +74,7 @@ Examples:
 
 This is a simple beta version with limited functionality. The command line interface tries to be user-friendly, but was originally intended for just me. Some commands output pretty pictures (e.g., `render` and `build`).
 
-Highlights are currently the construction of builds with the `build` command. Rules limit available cards to valid options while the constructing builds; however, incomplete and extreme builds are possible. In their simplest form, builds are represented by a **TCBWB** code (e.g., `tcwb4554xxxx264a734br11z`). For convenience, code persist in `*.tcwb` files, which are plain text files with additional human-readable information about the build. (The `*.tcwb` files can be opened by your preferred text editor.) These build definitions are a keystone to running single-game and Monte Carlo simulations.
+Highlights are currently the construction of builds with the `build` command. Rules limit available cards to valid options while the constructing builds; however, incomplete and extreme builds are possible. In their simplest form, builds are represented by a **TCWB** code (e.g., `tcwb4554xxxx264a734br11z`). For convenience, codes persist to `*.tcwb` files, which are plain text files containing additional human-readable information about the build. (The files can be opened by your preferred text editor.) These build definitions are a keystone to running single-game and Monte Carlo simulations.
 
 - Use the `-i` option for interactive builds (e.g., `cwsim build -i`).
 
