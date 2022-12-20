@@ -96,6 +96,11 @@
         display: none;
       }
 
+      #header_logo {
+        height: 36px;
+        width: 36px;
+      }
+
       a {
         color: #000;
         text-decoration: none;
@@ -124,7 +129,7 @@
     <header class="inner">
 
       <a href="/">
-        <img src="/img/tiwahu-logo-96x96.png" style="float: left; padding: 0px; margin-right: 12px;" />
+        <img id="header_logo" src="/img/tiwahu-logo-96x96.png" style="float: left; padding: 0px; margin-right: 12px;" title="Tiwahu logo" />
       </a>
 
       <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>

@@ -1,7 +1,7 @@
 
 <style>
 .inner table {
-  border: 1px solid #888 !important;
+  border: 0 !important;
   border-collapse: collapse !important;
   border-spacing: 0 !important;
   margin-bottom: 20px;
@@ -11,7 +11,7 @@
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
-  filter: drop-shadow(2px 2px 2px #444) !important;
+  filter: drop-shadow(5px 5px 5px #444) !important;
 }
 
 .inner table td {
@@ -26,11 +26,11 @@
 
 .inner table th {
   color: #000 !important;
-  background-color: #aaa !important;
+  background-color: #c0c0c0 !important;
 }
 
 .inner table th code {
-  background-color: #aaa !important;
+  background-color: #c0c0c0 !important;
 }
 
 .inner table thead, 
@@ -65,7 +65,7 @@
 | **White**  | `[W]` | ![W1] | ![W2] | ![W3] | ![W4] | ![W5] | ![W6] |
 
 
-<div style="color:#888; font-size:8pt; border: solid 1px #888; padding: 4px;">
+<div style="color:#808080; font-size:8pt; border: solid 1px #808080; padding: 4px;">
 <a href="https://carwars.sjgames.com/">Car Wars</a> is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of Timothy Huber and is released for free distribution, and not for resale, under the permissions granted in the <a href="http://www.sjgames.com/general/online_policy.html">Steve Jackson Games Online Policy</a>.
 </div>
 
