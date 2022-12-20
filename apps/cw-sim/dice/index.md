@@ -2,6 +2,9 @@
 <style>
 .inner table {
   border: 1px solid #888 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin-bottom: 20px;
 }
 
 .inner table img {
@@ -18,6 +21,10 @@
 
 .inner table code {
   font-size: 20px !important;
+}
+
+.inner table th code {
+  background-color: #aaa !important;
 }
 
 .inner table thead, 
