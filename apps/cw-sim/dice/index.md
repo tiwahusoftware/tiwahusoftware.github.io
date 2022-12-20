@@ -1,13 +1,17 @@
 
-<style> @import url('https://fonts.googleapis.com/css2?family=Overpass&family=Overpass+Mono&display=swap'); </style>
-
 <style>
-.inner * {
-    font-family: 'Overpass' !important;
+.inner table img {
+  margin: 0px !important;
+  padding: 0px !important;
+  filter: drop-shadow(2px 2px 2px #444) !important;
 }
 
-.inner table img {
-    filter: drop-shadow(5px 5px 5px #888) !important;
+.inner table td {
+  vertical-align: center !important;
+}
+
+.inner table code {
+  font-size: 24px !important;
 }
 
 .inner table thead, 
@@ -26,9 +30,6 @@
 .inner table tr:nth-child(2n) {
   background-color: unset !important; 
 }
-
-
-
 </style>
 
 # [Car Wars Simulator](../)

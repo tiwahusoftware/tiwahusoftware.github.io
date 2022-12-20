@@ -24,6 +24,10 @@
 
 
   <style type="text/css">
+    * {
+      font-family: 'Overpass', sans-serif !important;
+    }
+
     body {
       cursor: default;
     }
@@ -67,22 +71,18 @@
       line-height: 120%;
     }
 
-    pre {
-      padding: 5px;
-      box-shadow: 0 0 10px rgb(0 0 0 / 50%);
-    }
-
-    .highlight {
-      background-color: #fff;
-    }
-
-    .cw {
-      font-family: 'Overpass', sans-serif !important;
-    }
-
     .cw-code {
       font-family: 'Overpass Mono', monospace !important;
     }
+
+    pre {
+      padding: 5px;
+      box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    }  
+
+    .highlight {
+      background-color: #fff;
+    }  
 
     .copy-code-button {
       padding: 2px;
@@ -90,13 +90,19 @@
     }
 
     @media print {
+
       #project_tagline,
       #footer_wrap {
         display: none;
       }
+
       a {
         color: #000;
         text-decoration: none;
+      }
+
+      .copy-code-button {
+        display: none;
       }
     }
   </style>
@@ -122,7 +128,8 @@
       </a>
 
       <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 id="project_tagline" style="color: #808080;">{{ site.description | default: site.github.project_tagline }}</h2>
+      <h2 id="project_tagline" style="color: #808080;">{{ site.description | default: site.github.project_tagline }}
+      </h2>
 
       {% if site.show_downloads %}
       <section id="downloads">
