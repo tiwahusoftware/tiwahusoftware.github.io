@@ -1,12 +1,6 @@
 # Llama Music
 
-<div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT" style="float: right; margin: 12px;"></div>
-<script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
-<script>
-mspb('9WZDNCRDCNJT', function(badge) {
-document.getElementById('mspb-9WZDNCRDCNJT').innerHTML = badge;
-});
-</script>
+> [Available][link-store-lma] for your Windows devices!
 
 **Llama Music** is an unofficial Live Music Archive client for Windows and a
 spiritual successor to the highly-rated [**Live Music Access**](../live-music-access/index.md)
@@ -14,6 +8,13 @@ app enjoyed on Windows Phone.
 
 **Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live
 Music Archive][link-etree] (_etree_ collection) to your Windows devices.
+
+<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+<ms-store-badge
+    productid="9WZDNCRDCNJT"
+    window-mode="full"
+    animation="on">
+</ms-store-badge>
 
 ## Feature Highlights
 
@@ -71,19 +72,11 @@ Music Archive][link-etree] (_etree_ collection) to your Windows devices.
     - Sanitization of metadata and descriptions
     - etc.
 
-<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
-<ms-store-badge
-    productid="9WZDNCRDCNJT"
-    window-mode="full"
-    animation="on">
-</ms-store-badge>
+### Future Roadmap
 
-### Coming Soon
-
-- Reimagined version with support for **Android** (using .NET MAUI).
+- Reimagined version using .NET MAUI with support for **Android**.
 - Support for **Xbox** to listen in your living room.
-- Voice assistant commands to find and play what you want.
-- ...and more?
+- Voice assistant abilities that find and play what you want.
 
 [link-etree]: https://archive.org/details/etree/
 [link-store-lma]: https://www.microsoft.com/store/apps/9WZDNCRDCNJT

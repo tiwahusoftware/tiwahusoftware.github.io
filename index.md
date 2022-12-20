@@ -31,7 +31,7 @@ Be sure to check out [other apps, too!][apps]
 
 ## Contact
 
-[![@tiwahu](img/twitter-icon-252x252.png =80x)](https://twitter.com/tiwahu/)
+[<img src="img/twitter-icon-252x252.png" width="80" height="80" title="@tiwahu" />](https://twitter.com/tiwahu/)
 
 [apps]: /apps/index.md
 [llama music]: /apps/llama-music/index.md
