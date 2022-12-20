@@ -11,7 +11,7 @@
 }
 
 .inner table td {
-  vertical-align: center !important;
+  vertical-align: middle !important;
   padding: 10px !important;
   border: 1px solid #888 !important;
 }
