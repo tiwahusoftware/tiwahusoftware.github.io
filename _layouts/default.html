@@ -18,7 +18,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Overpass&family=Overpass+Mono&display=swap" rel="stylesheet" />
 
-  <style> @import url('https://fonts.googleapis.com/css2?family=Overpass&family=Overpass+Mono&display=swap'); </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Overpass&family=Overpass+Mono&display=swap');
+  </style>
 
 
   <style type="text/css">
@@ -86,6 +88,17 @@
       padding: 2px;
       display: block;
     }
+
+    @media print {
+      #project_tagline,
+      #footer_wrap {
+        display: none;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+    }
   </style>
 
   <link rel='stylesheet' href='/assets/css/code-block-buttons.css' />
@@ -109,8 +122,7 @@
       </a>
 
       <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 id="project_tagline" style="color: #808080;">{{ site.description | default: site.github.project_tagline }}
-      </h2>
+      <h2 id="project_tagline" style="color: #808080;">{{ site.description | default: site.github.project_tagline }}</h2>
 
       {% if site.show_downloads %}
       <section id="downloads">
