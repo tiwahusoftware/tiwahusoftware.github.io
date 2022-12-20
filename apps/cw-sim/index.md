@@ -96,7 +96,10 @@ The `cards` command is useful for build planning.
 - The `-t` option displays full-size cards (with redacted rule text).
 
   ```bash
-  $ cwsim cards -t beer
+  cwsim cards -t beer
+  ```
+
+  ```
   ┌───────────────────────────┐
   │ Armored               (0) │
   │ BEER REFRIGERATOR         │
