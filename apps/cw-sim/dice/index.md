@@ -8,19 +8,25 @@
 }
 
 .inner table img {
-  margin: 0px !important;
-  padding: 0px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
   filter: drop-shadow(2px 2px 2px #444) !important;
 }
 
 .inner table td {
   vertical-align: middle !important;
   padding: 10px !important;
-  border: 1px solid #888 !important;
+  border: 1px solid #ccc !important;
 }
 
 .inner table code {
   font-size: 20px !important;
+}
+
+.inner table th {
+  color: #000 !important;
+  background-color: #aaa !important;
 }
 
 .inner table th code {
