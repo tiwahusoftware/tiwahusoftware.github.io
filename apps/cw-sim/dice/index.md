@@ -2,44 +2,36 @@
 <style> @import url('https://fonts.googleapis.com/css2?family=Overpass&family=Overpass+Mono&display=swap'); </style>
 
 <style>
-.cw * {
+.inner * {
     font-family: 'Overpass' !important;
 }
 
-table img {
+.inner table img {
     filter: drop-shadow(5px 5px 5px #888) !important;
 }
 
-.cw div.content {
-    justify-content: center !important;
-}
-
-.cw table thead, 
-.cw table thead tr {
+.inner table thead, 
+.inner table thead tr {
   background-color: #bfcebe !important;
 }
 
-.cw table thead tr {
+.inner table thead tr {
   background-color: unset !important;
 }
 
-.cw table tr {
+.inner table tr {
   background-color: unset !important;
 }
 
-.cw table tr:nth-child(2n) {
+.inner table tr:nth-child(2n) {
   background-color: unset !important; 
 }
 
 </style>
 
-<div class="cw">
-
 # Car Wars Simulator
 
 ## Dice Sides
-
-<div class="content">
 
 |   Color    | Code  |   1   |   2   |   3   |   4   |   5   |   6   |
 | :--------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -50,18 +42,12 @@ table img {
 | **Black**  | `[K]` | ![K1] | ![K2] | ![K3] | ![K4] | ![K5] | ![K6] |
 | **White**  | `[W]` | ![W1] | ![W2] | ![W3] | ![W4] | ![W5] | ![W6] |
 
-</div>
-
-</div>
-
-<footer class="inner">
 <p class="copyright" style="color: #888">
 
 | [Car Wars][game] is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of Timothy Huber and is released for free distribution, and not for resale, under the permissions granted in the [Steve Jackson Games Online Policy][policy]. |
 | - |
 
 </p>
-</footer>
 
 
 
