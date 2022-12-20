@@ -4,39 +4,34 @@
 
 ### [Llama Music]
 
-> [Now available][link-store-lma] on nearly all your Windows 10 devices!
+**Llama Music** is an unofficial Live Music Archive client for Windows and a spiritual successor to the highly-rated [**Live Music Access**][lma-legacy] app enjoyed on Windows Phone.
 
-<div id="mspb-9WZDNCRDCNJT" class="9WZDNCRDCNJT" style="float: right; margin: 12px;"></div>
-<script src="https://storebadge.azureedge.net/src/badge-1.6.1.js"></script>
-<script>
-mspb('9WZDNCRDCNJT', function(badge) {
-document.getElementById('mspb-9WZDNCRDCNJT').innerHTML = badge;
-});
-</script>
-
-[**Llama Music**][llama music] is an unofficial Live Music Archive client for
-Windows 10 and a spiritual successor to the highly-rated [**Live Music Access**][lma-legacy]
-app enjoyed on Windows Phone.
-
-**Browse**, **search**, and **stream** concert recordings from Internet
-Archive's [Live Music Archive][link-etree] (_etree_) collection to **all** your
-Windows 10 devices.
+**Browse**, **search**, and **stream** concert recordings from Internet Archive's [Live Music Archive][link-etree] (_etree_) collection to your Windows devices.
 
 #### Feature Highlights
 
 - **Free**.
 - **Legal**.
 - **No** advertisements.
-- **No** in-app purchases.
-- Background audio support.
-- **Gapless** playback (_finally!_).
-- [...and much, much more!][llama music features]
+- **Gapless** playback.
+- Resume **automatic bookmarks**.
+- Personal **album art tagging**.
+- ...and [much, much more!][llama music features]
+
+<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+<ms-store-badge
+    productid="9WZDNCRDCNJT"
+    window-mode="full"
+    animation="on">
+</ms-store-badge>
+
+Be sure to check out [other apps, too!][apps]
 
 ----
 
 ## Contact
 
-[![@tiwahu](img/twitter-icon-252x252.png)](https://twitter.com/tiwahu/)
+[![@tiwahu](img/twitter-icon-252x252.png =80x)](https://twitter.com/tiwahu/)
 
 [apps]: /apps/index.md
 [llama music]: /apps/llama-music/index.md

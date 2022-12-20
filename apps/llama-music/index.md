@@ -71,7 +71,12 @@ Music Archive][link-etree] (_etree_ collection) to your Windows devices.
     - Sanitization of metadata and descriptions
     - etc.
 
-[![Available in Windows Store!](/img/download-from-windows-store.png)][link-store-lma]
+<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+<ms-store-badge
+    productid="9WZDNCRDCNJT"
+    window-mode="full"
+    animation="on">
+</ms-store-badge>
 
 ### Coming Soon
 
