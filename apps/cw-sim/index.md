@@ -95,11 +95,9 @@ The `cards` command is useful for build planning.
 
 - The `-t` option displays full-size cards (with redacted rule text).
 
-  ```bash
+  ```
   cwsim cards -t beer
-  ```
 
-  ```
   ┌───────────────────────────┐
   │ Armored               (0) │
   │ BEER REFRIGERATOR         │
@@ -134,7 +132,9 @@ The `roll` command is simple and reliable, while the interactive part is poised 
 
 - See how to use it with `cwsim roll --help`.
 
-Parts of the program are obfuscated or removed.  You'd know that if you read the `--about` option text.
+Parts of the program are obfuscated or removed.
+
+- You'd know that if you read the `--about` option text.
 
 ### <a name='Example'></a>Example
 
