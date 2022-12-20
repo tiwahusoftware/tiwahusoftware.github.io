@@ -29,7 +29,7 @@
 
 </style>
 
-# Car Wars Simulator
+# [Car Wars Simulator](../)
 
 ## Dice Sides
 
