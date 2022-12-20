@@ -139,7 +139,7 @@ The future `sim` command runs individual game simulations and produces a detaile
 
 In addition to creating a detailed single game report, it can create videos to visualize the movement and combat, as seen in the following example:
 
-<video width="540" height="360" controls>
+<video width="360" height="240" controls>
   <source src="/img/cw-sim/example-sim-x4-3x3.mp4" type="video/mp4">
   <p>
     Your browser doesn't support HTML video, but you can <a href="/img/cw-sim/example-sim-x4-3x3.mp4">download the video</a> instead.

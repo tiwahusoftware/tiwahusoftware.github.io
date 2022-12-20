@@ -1,5 +1,9 @@
 
 <style>
+.inner table {
+  border: 1px solid #888 !important;
+}
+
 .inner table img {
   margin: 0px !important;
   padding: 0px !important;
@@ -8,10 +12,12 @@
 
 .inner table td {
   vertical-align: center !important;
+  padding: 10px !important;
+  border: 1px solid #888 !important;
 }
 
 .inner table code {
-  font-size: 24px !important;
+  font-size: 20px !important;
 }
 
 .inner table thead, 
@@ -36,7 +42,7 @@
 
 ## Dice Sides
 
-|   Color    | Code  |   1   |   2   |   3   |   4   |   5   |   6   |
+|   Color    | Code  |  `1`  |  `2`  |  `3`  |  `4`  |  `5`  |  `6`  |
 | :--------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |  **Red**   | `[R]` | ![R1] | ![R2] | ![R3] | ![R4] | ![R5] | ![R6] |
 | **Yellow** | `[Y]` | ![Y1] | ![Y2] | ![Y3] | ![Y4] | ![Y5] | ![Y6] |
