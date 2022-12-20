@@ -3,6 +3,7 @@
 <!-- vscode-markdown-toc -->
 * [About](#About)
     * [Description](#Description)
+    * [Example](#Example)
 * [Download](#Download)
 * [Setup](#Setup)
 * [Resources](#Resources)
@@ -131,6 +132,21 @@ The `roll` command is simple and reliable, while the interactive part is poised 
 - See how to use it with `cwsim roll --help`.
 
 Parts of the program are obfuscated or removed.  You'd know that if you read the `--about` option text.
+
+### <a name='Example'></a>Example
+
+The future `sim` command runs individual game simulations and produces a detailed log of events and statistics within each round.  It can also run high-performance Monte Carlo simulations to generate a CSV file with results and statistics from thousands or more simulated games.
+
+In addition to creating a detailed single game report, it can create videos to visualize the movement and combat, as seen in the following example:
+
+<video width="540" height="360" controls>
+  <source src="/img/cw-sim/example-sim-x4-3x3.mp4" type="video/mp4">
+  <p>
+    Your browser doesn't support HTML video, but you can <a href="/img/cw-sim/example-sim-x4-3x3.mp4">download the video</a> instead.
+  </p>
+</video>
+
+The **TCWB** car configurations used as simulator inputs can be constructed with the currently available `build` command.
 
 ## <a name='Download'></a>Download
 
