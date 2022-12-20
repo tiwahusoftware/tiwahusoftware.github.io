@@ -4,7 +4,8 @@
 * [About](#About)
     * [Description](#Description)
 * [Download](#Download)
-    * [Setup](#Setup)
+* [Setup](#Setup)
+* [Resources](#Resources)
 
 <!-- vscode-markdown-toc-config
     numbering=false
@@ -157,6 +158,14 @@ Parts of the program are obfuscated or removed.  You'd know that if you read the
 1. [Download](#Download) the command line app for your device.
 2. Open a command prompt in the directory of the executable.
 3. Run `cwsim --help` (or `cwsim <command> --help`) from the command prompt for help.
+
+## <a name='Resources'></a>Resources
+
+The following are additional resources useful for *Car Wars Simulator*.
+
+- [Dice Sides](./dice)
+- More coming soon...
+
 
 [download-link-win-x64]: /download/cw-sim/beta/win-x64/cwsim.exe
 [download-link-win-arm64]: /download/cw-sim/beta/win-arm64/cwsim.exe
