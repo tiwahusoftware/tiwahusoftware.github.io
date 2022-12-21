@@ -180,10 +180,10 @@ The **TCWB** car configurations used as simulator inputs can be constructed with
 
 ## <a name='Resources'></a>Resources
 
-The following are additional resources useful for *Car Wars Simulator*.
+Additional resources for translating code values in *Car Wars Simulator*.  Printouts could be useful in physical *Car Wars 6e* games.
 
 - [Dice Sides](./dice)
-- More coming soon...
+- [Symbols](./symbols)
 
 
 [download-link-win-x64]: /download/cw-sim/beta/win-x64/cwsim.exe
