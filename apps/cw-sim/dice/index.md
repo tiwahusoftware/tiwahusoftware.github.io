@@ -4,7 +4,8 @@
   border: 0 !important;
   border-collapse: collapse !important;
   border-spacing: 0 !important;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
+  width: 100% !important;
 }
 
 .inner table img {
