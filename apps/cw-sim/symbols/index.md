@@ -4,7 +4,7 @@
   border: 0 !important;
   border-collapse: collapse !important;
   border-spacing: 0 !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 10px !important;
   width: 100% !important;
 }
 
@@ -58,7 +58,7 @@
 
 |  Type  |    Value    | Code  | Icon |
 | :----: | :---------: | :---: | :--: |
-| Damage |    Tire     | `[^]` | ![^] |
+| Damage |    Tire     | `[^]` | ![T] |
 | Damage |    Fire     | `[&]` | ![&] |
 | Damage |    Blast    | `[@]` | ![@] |
 | Token  |     Ace     | `[A]` | ![A] |
@@ -74,12 +74,11 @@
 | Color  |    Black    | `[K]` | ![K] |
 | Color  |    White    | `[W]` | ![W] |
 
-
 <div style="color:#808080; font-size:8pt; border: solid 1px #808080; padding: 4px;">
 <a href="https://carwars.sjgames.com/">Car Wars</a> is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of Timothy Huber and is released for free distribution, and not for resale, under the permissions granted in the <a href="http://www.sjgames.com/general/online_policy.html">Steve Jackson Games Online Policy</a>.
 </div>
 
-[^]: /img/cw-sim/symbols/damage/Tire-text.png "Tire damage"
+[T]: /img/cw-sim/symbols/damage/Tire-text.png "Tire damage"
 [&]: /img/cw-sim/symbols/damage/Fire-text.png "Fire damage"
 [@]: /img/cw-sim/symbols/damage/Explosion-text.png "Explosion damage"
 [A]: /img/cw-sim/symbols/tokens/Ace-text.png "Ace token"
