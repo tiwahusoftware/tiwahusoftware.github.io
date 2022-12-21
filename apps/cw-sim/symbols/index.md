@@ -64,7 +64,7 @@
 | Token  |     Ace     | `[A]` | ![A] |
 | Token  |   Control   | `[#]` | ![#] |
 | Token  |   Damage    | `[!]` | ![!] |
-| Result |    Star     | `[*]` | ![*] |
+| Result |     Hit     | `[*]` | ![*] |
 | Result | Skid/Shield | `[$]` | ![$] |
 | Result |   Wrench    | `[X]` | ![X] |
 | Color  |     Red     | `[R]` | ![R] |
@@ -74,17 +74,13 @@
 | Color  |    Black    | `[K]` | ![K] |
 | Color  |    White    | `[W]` | ![W] |
 
-<div style="color:#808080; font-size:8pt; border: solid 1px #808080; padding: 4px;">
-<a href="https://carwars.sjgames.com/">Car Wars</a> is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of Timothy Huber and is released for free distribution, and not for resale, under the permissions granted in the <a href="http://www.sjgames.com/general/online_policy.html">Steve Jackson Games Online Policy</a>.
-</div>
-
 [T]: /img/cw-sim/symbols/damage/Tire-text.png "Tire damage"
 [&]: /img/cw-sim/symbols/damage/Fire-text.png "Fire damage"
-[@]: /img/cw-sim/symbols/damage/Explosion-text.png "Explosion damage"
+[@]: /img/cw-sim/symbols/damage/Explosion-text.png "Blast damage"
 [A]: /img/cw-sim/symbols/tokens/Ace-text.png "Ace token"
 [#]: /img/cw-sim/symbols/tokens/Control-text.png "Control token"
 [!]: /img/cw-sim/symbols/tokens/Damage-text.png "Damage token"
-[*]: /img/cw-sim/symbols/results/Hit-text.png "Skid/Shield result"
+[*]: /img/cw-sim/symbols/results/Hit-text.png "Hit result"
 [$]: /img/cw-sim/symbols/results/SkidShield-text.png "Skid/Shield result"
 [X]: /img/cw-sim/symbols/results/Wrench-text.png "Wrench result"
 [R]: /img/cw-sim/symbols/dice-text/R.png "Red die"
@@ -93,3 +89,7 @@
 [B]: /img/cw-sim/symbols/dice-text/B.png "Blue die"
 [K]: /img/cw-sim/symbols/dice-text/K.png "Black die"
 [W]: /img/cw-sim/symbols/dice-text/W.png "White die"
+
+<div style="color:#80808080; font-size:8pt; border: solid 1px #80808080; padding: 4px;">
+<a href="https://carwars.sjgames.com/">Car Wars</a> is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of Timothy Huber and is released for free distribution, and not for resale, under the permissions granted in the <a href="http://www.sjgames.com/general/online_policy.html">Steve Jackson Games Online Policy</a>.
+</div>

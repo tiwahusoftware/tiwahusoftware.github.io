@@ -66,10 +66,6 @@
 | **White**  | `[W]` | ![W1] | ![W2] | ![W3] | ![W4] | ![W5] | ![W6] |
 
 
-<div style="color:#808080; font-size:8pt; border: solid 1px #808080; padding: 4px;">
-<a href="https://carwars.sjgames.com/">Car Wars</a> is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of Timothy Huber and is released for free distribution, and not for resale, under the permissions granted in the <a href="http://www.sjgames.com/general/online_policy.html">Steve Jackson Games Online Policy</a>.
-</div>
-
 [R1]: /img/cw-sim/dice/R1.png "Skid/Shield on Side 1 of Red"
 [R2]: /img/cw-sim/dice/R2.png "Skid/Shield on Side 2 of Red"
 [R3]: /img/cw-sim/dice/R3.png "Skid/Shield on Side 3 of Red"
@@ -112,3 +108,6 @@
 [W5]: /img/cw-sim/dice/W5.png "Hit on Side 5 of White"
 [W6]: /img/cw-sim/dice/W6.png "Double Hit on Side 6 of White"
 
+<div style="color:#80808080; font-size:8pt; border: solid 1px #80808080; padding: 4px;">
+<a href="https://carwars.sjgames.com/">Car Wars</a> is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of Timothy Huber and is released for free distribution, and not for resale, under the permissions granted in the <a href="http://www.sjgames.com/general/online_policy.html">Steve Jackson Games Online Policy</a>.
+</div>

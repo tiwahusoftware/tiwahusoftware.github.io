@@ -74,22 +74,27 @@ Examples:
 
 ### <a name='Description'></a>Description
 
-This is a simple beta version with limited functionality. The command line interface tries to be user-friendly, but was originally intended for just me. Some commands output pretty pictures (e.g., `render` and `build`).
+Simulate a game of *Car Wars 6e* using human-defined car build configurations and bot player rules requires several tangential capabilities.  This cross-platform command-line interface (CLI) console application started out small and many of the required components are present as *commands* in the console application.  Independent of the simulator, some of these commands are quite useful.
 
-Highlights are currently the construction of builds with the `build` command. Rules limit available cards to valid options while the constructing builds; however, incomplete and extreme builds are possible. In their simplest form, builds are represented by a **TCWB** code (e.g., `tcwb4554xxxx264a734br11z`). For convenience, codes persist to `*.tcwb` files, which are plain text files containing additional human-readable information about the build. (The files can be opened by your preferred text editor.) These build definitions are a keystone to running single-game and Monte Carlo simulations.
+This app is a beta version with limited functionality. The command line interface tries to be user-friendly, although originally intended for just me.  Each command has its own help documentation. Some commands can output pretty pictures (e.g., `render` and `build`), so try them!
 
-- Use the `-i` option for interactive builds (e.g., `cwsim build -i`).
+The construction of builds with the `build` command is a current highlight. The pool of available cards when constructing builds is limited by the valid option rules; however, incomplete and extreme builds remain possible.
 
-- Auto-generated builds `-g` have many options, but are mostly an experiment for a future idea.
+In their simplest form, builds are represented by a **TCWB** code (e.g., `tcwb4554xxxx264a734br11z`). For convenience, codes persist to `*.tcwb` files, which are plain text files containing additional human-readable information about the build. (The files can be opened by your preferred text editor.) These build definitions are a keystone to running single-game and Monte Carlo simulations.
+
+- Use the `-i` option for interactive builds in the command line interface (e.g., `cwsim build -i`).
+
+- Auto-generated builds `-g` have many options.
     - When using this option, be sure to explore the ability to apply weights to groups of cards.
+    - This was an experiment to generate diverse inputs for simulator runs, but it could be useful by itself.
 
-- For example, **TCWB** builds can be constructed manually or automatically-generated and saved in text-based files or images of your creation.
+- **TCWB** builds can be constructed manually or automatically-generated and your creation can be saved in text-based files or images.
 
   ![Example of random build](/img/cw-sim/random-build-example.png)
 
-- The **TCWB** car configuration build codes can be shared with others.
+- The **TCWB** car configuration builds are decentralized codes that can be easily shared and loaded by others.
 
-The `cards` command is useful for build planning.
+The `cards` command is useful for build planning, since it searches cards by several properties and displays text or renders image files.
 
 - Explore the options with `cwsim cards --help`.
 
@@ -134,13 +139,13 @@ The `roll` command is simple and reliable, while the interactive part is poised 
 
 Parts of the program are obfuscated or removed.
 
-- You'd know that if you read the `--about` option text.
+- More information is in the `--about` option text.
 
 ### <a name='Example'></a>Example
 
-The future `sim` command runs individual game simulations and produces a detailed log of events and statistics within each round.  It can also run high-performance Monte Carlo simulations to generate a CSV file with results and statistics from thousands or more simulated games.
+A future `sim` command runs game simulations and produces a detailed log of all events within each round and statistical records for the game.  It also can run high-performance Monte Carlo simulations to generate a CSV file with many statistics and results from thousands of simulated games.
 
-In addition to creating a detailed single game report, it can create videos to visualize the movement and combat, as seen in the following example:
+In addition to creating a detailed single game report, video output visualizes movement and combat within the game, as seen in the following example:
 
 <video width="360" height="240" controls>
   <source src="/img/cw-sim/example-sim-x4-3x3.mp4" type="video/mp4">
@@ -149,7 +154,7 @@ In addition to creating a detailed single game report, it can create videos to v
   </p>
 </video>
 
-The **TCWB** car configurations used as simulator inputs can be constructed with the currently available `build` command.
+The **TCWB** car configurations used as input to the simulator can be constructed with the `build` command already available.
 
 ## <a name='Download'></a>Download
 
