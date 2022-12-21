@@ -11,17 +11,17 @@
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
-  filter: drop-shadow(5px 5px 5px #444) !important;
+  filter: drop-shadow(4px 4px 4px #444) !important;
 }
 
 .inner table td {
   vertical-align: middle !important;
-  padding: 10px !important;
+  padding: 8px !important;
   border: 1px solid #ccc !important;
 }
 
 .inner table code {
-  font-size: 20px !important;
+  font-size: 16px !important;
 }
 
 .inner table th {
