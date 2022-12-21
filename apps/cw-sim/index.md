@@ -74,9 +74,9 @@ Examples:
 
 ### <a name='Description'></a>Description
 
-Simulate a game of *Car Wars 6e* using human-defined car build configurations and bot player rules requires several tangential capabilities.  This cross-platform command-line interface (CLI) console application started out small and many of the required components are present as *commands* in the console application.  Independent of the simulator, some of these commands are quite useful.
+Simulating a game of *Car Wars 6e* using human-defined car build configurations and bot player rules requires several tangential capabilities.  This cross-platform console application started out as a small command-line interface (CLI) to introduce the required components.  Many are presently accessible as *commands* in the CLI.  Independent of the simulator feature, some commands are quite useful as game aids even if it retains a perpetual beta version tag and only provides limited functionality.
 
-This app is a beta version with limited functionality. The command line interface tries to be user-friendly, although originally intended for just me.  Each command has its own help documentation. Some commands can output pretty pictures (e.g., `render` and `build`), so try them!
+The command-line interface attempts to be as user-friendly as possible.  Each command has its own help documentation.  (Just use `--help` after any command.)  Some commands have options to output pretty pictures (e.g., `render` and `build`).
 
 The construction of builds with the `build` command is a current highlight. The pool of available cards when constructing builds is limited by the valid option rules; however, incomplete and extreme builds remain possible.
 
@@ -92,11 +92,13 @@ In their simplest form, builds are represented by a **TCWB** code (e.g., `tcwb45
 
   ![Example of random build](/img/cw-sim/random-build-example.png)
 
-- The **TCWB** car configuration builds are decentralized codes that can be easily shared and loaded by others.
+- Specialized treatment for "Binder Builds" is an option.
 
-The `cards` command is useful for build planning, since it searches cards by several properties and displays text or renders image files.
+- The **TCWB** car configuration builds are *decentralized codes* that are easily shared and loaded by others.
 
-- Explore the options with `cwsim cards --help`.
+The `cards` command is useful for build planning, since it searches cards by several properties to display text representations or render image files.
+
+- Explore more options with `cwsim cards --help`.
 
 - The `-t` option displays full-size cards (with redacted rule text).
 
@@ -137,13 +139,15 @@ The `roll` command is simple and reliable, while the interactive part is poised 
 
 - See how to use it with `cwsim roll --help`.
 
-Parts of the program are obfuscated or removed.
+Some parts of the program are obfuscated or removed from the public version.
 
 - More information is in the `--about` option text.
 
 ### <a name='Example'></a>Example
 
-A future `sim` command runs game simulations and produces a detailed log of all events within each round and statistical records for the game.  It also can run high-performance Monte Carlo simulations to generate a CSV file with many statistics and results from thousands of simulated games.
+A future `sim` command runs game simulations and produces a detailed log of all events within each round and statistical records for the overall game.  The same command can run a high-performance Monte Carlo simulation to generate a CSV file with various statistics and results from thousands of simulated games.
+
+A primary use case of this feature is to compare car build configurations and evaluate the impact of alterations.
 
 In addition to creating a detailed single game report, video output visualizes movement and combat within the game, as seen in the following example:
 
@@ -154,7 +158,7 @@ In addition to creating a detailed single game report, video output visualizes m
   </p>
 </video>
 
-The **TCWB** car configurations used as input to the simulator can be constructed with the `build` command already available.
+The already available `build` command constructs the **TCWB** car build configurations used for input to the simulator.
 
 ## <a name='Download'></a>Download
 
