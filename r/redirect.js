@@ -26,6 +26,7 @@ function debugWriteline(s, tag) {
 
 function requestSearch(key, defaultValue) {
     if (defaultValue === void 0) { defaultValue = ""; }
+
     key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
     var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
     var qs = regex.exec(window.top.location.search);
@@ -37,11 +38,12 @@ function requestSearch(key, defaultValue) {
 
 function requestHashPath(key, defaultValue) {
     if (defaultValue === void 0) { defaultValue = ""; }
+
     var h = window.top.location.hash;
     if (h) {
         if (h.length > 1) {
             if (h[0] == '#') {
-                if (key === void 0)
+                if (key.length > 0)
                     return h.substring(1);
 
                 var index = h.indexOf("/", 2);
@@ -59,6 +61,7 @@ function requestHashPath(key, defaultValue) {
 
 function getQueryVariable(key, defaultValue) {
     if (defaultValue === void 0) { defaultValue = ""; }
+
     var query = window.top.location.search.substring(1);
     var vars = query.split('&');
     for (var i = 0; i < vars.length; i++) {
@@ -75,9 +78,9 @@ function processRedirect() {
     var cw = requestHashPath("cw-sim", null) ?? requestSearch("cw-sim", null);
 
     var p = window.top.location.pathname;
-    if (p.endsWith("/lma") || p.endsWith("/lma/"))
-        cw = requestHashPath(null, null) ?? requestSearch("id", null);
-    else if (p.endsWith("/cw-sim") || p.endsWith("/cw-sim/"))
+    if (p.endsWith("/lma"))
+        lma = requestHashPath(null, null) ?? requestSearch("id", null);
+    else if (p.endsWith("/cw-sim"))
         cw = requestHashPath(null, null) ?? requestSearch("tag", null);
 
     if (lma != null) {
