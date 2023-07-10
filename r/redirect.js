@@ -43,7 +43,7 @@ function requestHashPath(key, defaultValue) {
     if (h) {
         if (h.length > 1) {
             if (h[0] == '#') {
-                if (key == null)
+                if (key.length > 0)
                     return h.substring(1);
 
                 var index = h.indexOf("/", 2);
