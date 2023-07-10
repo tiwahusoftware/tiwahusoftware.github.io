@@ -1,12 +1,25 @@
 # Car Wars Simulator
 
 <!-- vscode-markdown-toc -->
-* [About](#About)
-    * [Description](#Description)
-    * [Example](#Example)
-* [Download](#Download)
-* [Setup](#Setup)
-* [Resources](#Resources)
+- [Car Wars Simulator](#car-wars-simulator)
+  - [About](#about)
+    - [Description](#description)
+    - [Example](#example)
+  - [Help](#help)
+    - [User Interface](#user-interface)
+      - [Build Image](#build-image)
+      - [Workbench List](#workbench-list)
+      - [Menus](#menus)
+        - [File Menu](#file-menu)
+        - [Edit Menu](#edit-menu)
+        - [View Menu](#view-menu)
+        - [Sim Menu](#sim-menu)
+      - [Future Ideas](#future-ideas)
+  - [Download](#download)
+    - [Windows App](#windows-app)
+    - [Command-Line Interface (CLI)](#command-line-interface-cli)
+      - [Setup](#setup)
+  - [Resources](#resources)
 
 <!-- vscode-markdown-toc-config
     numbering=false
@@ -160,8 +173,114 @@ In addition to creating a detailed single game report, video output visualizes m
 
 The already available `build` command constructs the **TCWB** car build configurations used for input to the simulator.
 
+## <a name='Help'></a>Help
+
+> Each command in the command-line interface has its own help documentation.  (Just use `--help` after any command.)
+
+### User Interface
+
+Imagine an interface that lets you build, modify, save, and share Car Wars (6e) builds.  Then, imagine being able to quickly simulate that build against virtual competitors to hone the configuration before your next game night.  You no longer need to imagine.
+
+While the command-line interface is quite powerful, sometimes you want the immediate visual satisfaction that desktop apps provide.  Now there is a way to quickly compare changes to prototypes against a chosen build.  No network connection required to edit builds and run simulations.
+
+Don't be fooled by the pretty point-click-or-tap interface. There are plenty of user-friendly keyboard accelerators for navigating the app quickly.
+
+#### Build Image
+
+Zoom in by tapping.
+
+#### Workbench List
+
+Click a card in the list to see its details.  Weapons cards include a unique display of probable roll results when attacking.
+
+Remove cards from the list with the red X.
+
+Duplicate cards with the duplicate button under the remove button.
+
+Some cards do not have complete rules in simulations and have a warning symbol next to their name in the list.  These can be used in builds and simulations, but may skew simulation results.  If you want to see how well they work, try them in your next game!
+
+#### Menus
+
+##### File Menu
+
+Open **TCWB** files from others or previously saved in the app.
+
+Save build definitions as **TCWB** files or images.  Various image layouts and formats are available.
+
+The build files themselves can be shared and modified by others.  **TCWB** code (e.g., `tcwb4554xxxx264a734br11z`)
+
+Load build token from others.  Get their **TCWB** code (e.g., `tcwb4554xxxx264a734br11z`) and load it.
+
+Generate a random build, if looking for inspiration.  Random builds attempt to match the Build (BP) and Crew (CP) of the current build, so add cards or open another build first.
+
+Name your car or rename the default name.  Clear the name to go back to using a default name.  For use in **TCWB** code, characters in names are limited.  Inputs are sanitized for embedding and normalized for display. For example, `PascalCaseAndHyphens-are-useful` will display as `PASCAL CASE and HYPHENS - ARE - USEFUL`.
+
+Sharing.  Share the build image and **TCWB** code.
+
+##### Edit Menu
+
+Undo/redo.  We all make mistakes, so undo and redo is easy.  Or, maybe we just want to go back and forward in time.  Now you can, Marty!
+
+Copy the current build to clipboard.
+Paste from clipboard.
+
+Remove all cards from the current build.  This provides a fresh start and allows adding any card you want.  It's okay, there is an undo if you change your mind.
+
+Add new cards.  Initial list is randomly available cards.  Search and select to find the one you want to add the card.  If the card requires placement on a side, choose from the available options.  Only cards valid to add to the current build are available.  For example, if you already have a Driver, remove the Driver card before trying to add a Driver.
+
+
+##### View Menu
+
+Toggle list display on and off to zoom into the build image.
+
+Layout
+
+Card Size
+
+Tech Level
+
+Refresh in case the 
+
+
+
+##### Sim Menu
+
+Once you build a car, put it through a simulator against other builds for analysis.
+
+
+#### Future Ideas
+
+Some future ideas, in no particular order.
+
+- Rules for more cards.
+- Additional simulator configuration options.
+- ~~Reset running simulation when builds change.~~ *Done!*
+- Estimated time to complete simulation.
+- More statistical summary information during simulation.
+- Video output from one-game simulation.
+- Additional competitors, including team designations.
+- Detailed statistics in CSV format.
+- Card browser independent of build.
+- Improved browsing of cards during construction, weapon statistics, etc.
+- Warning when exceeding a target AP, BP, and CP.
+- Game size adjustment to large for cards over 6 points.
+- Generate random builds based on chosen target.
+- ~~Browse for replacement cards to change them.~~ *Done!*
+- Move cards between sides (e.g., when cards cannot be duplicated).
+- Persist user settings.
+- Image preview of build files in Windows Explorer.
+- Load recent builds.
+- Saving images in to a "printable" format.
+- Better statistic summary of simulations.
+- Updated assets for app and file icons.
+- Performance improvements.
+
 ## <a name='Download'></a>Download
 
+### Windows App
+- Windows Store link *COMING SOON*
+
+### Command-Line Interface (CLI)
 - [win-x64][download-link-win-x64]
 - [win-arm64][download-link-win-arm64]
 - [linux-x64][download-link-linux-x64]
@@ -181,7 +300,7 @@ The already available `build` command constructs the **TCWB** car build configur
 > cwsim
 > ```
 
-## <a name='Setup'></a>Setup
+#### <a name='Setup'></a>Setup
 
 1. [Download](#Download) the command line app for your device.
 2. Open a command prompt in the directory of the executable.
