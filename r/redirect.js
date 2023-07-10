@@ -94,8 +94,7 @@ function processRedirect() {
     }
     else if (cw != null) {
         app = "Car Wars Simulator";
-        // hostname is case insensitive, so open is used...
-        link = "tiwahu-cwsim://open/" + cw;
+        link = "tiwahu-cw-sim:///" + cw;
 
         site = "Get the app";
         url = "https://www.tiwahu.com/apps/cw-sim/";
@@ -115,19 +114,19 @@ function processRedirect() {
     }
 
     if (lma != null) {
-        var line = document.createElement("h3");
+        var line = document.createElement("code");
         line.innerText = lma;
         div.appendChild(line);
     }
 
     if (cw != null) {
-        var line = document.createElement("h3");
+        var line = document.createElement("code");
         line.innerText = cw;
         div.appendChild(line);
     }
 
     if (link != null) {
-        var message = "Back to the app"; // : "Redirect";
+        var message = "Back to the app";
         var line = document.createElement("h4");
         var a = document.createElement("a");
         a.setAttribute("style", "text-decoration:none;");
