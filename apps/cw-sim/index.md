@@ -183,7 +183,7 @@ The already available `build` command constructs the **TCWB** car build configur
 
 ### User Interface
 
-Imagine an interface that lets you build, modify, save, and share Car Wars (6e) builds.  Then, imagine being able to quickly simulate that build against virtual competitors to hone the configuration before your next game night.  You no longer need to imagine.
+Imagine an interface that lets you build, modify, save, and share Car Wars (6e) builds.  Then, imagine being able to quickly simulate that build against virtual competitors to hone the configuration before your next game night.  [You no longer need to imagine.](#windows-app)
 
 While the command-line interface is quite powerful, sometimes you want the immediate visual satisfaction that desktop apps provide.  Now there is a way to quickly compare changes to prototypes against a chosen build.  No network connection required to edit builds and run simulations.
 
@@ -191,15 +191,15 @@ Don't be fooled by the pretty point-click-or-tap interface. There are plenty of 
 
 #### Build Image
 
-Toggle zoom by tapping on the build image or using the F11 key.
+See the layout of your cards change dynamically as you make changes. Toggle zoom by tapping on the build image or using the F11 key.  The view can be customized with commands in the *View* menu.
 
 #### Workbench List
 
-Click a card in the workbench list to see its details.  Weapons cards include a unique display of probable roll results when attacking.
+Click the name of a card in the workbench list to see its details.  Weapons cards include a unique display of probable roll results when used in an attack.
 
-Remove cards from the list with the red X.
+Remove cards from your build with the red X.
 
-Duplicate cards or swap cards with the buttons under the remove button.
+Duplicate or swap cards with buttons under the remove button.  Cards can also be replaced by tapping their cost.
 
 Cards that do not have complete rules in simulations will show a warning symbol next to their name in the list.  They can be used in builds and simulations, but may skew simulation results.  If you want to see how well they work, just try them in your next game!
 
@@ -223,9 +223,9 @@ Cards that do not have complete rules in simulations will show a warning symbol 
 
 *Undo*. *Redo*.  Wash, rinse, repeat.  We all make mistakes, so undo and redo in the app is easy.  Or, maybe you don't make mistakes and just want to go backward and forward in time.  Now you can, Marty!
 
-*Copy* the current build to clipboard.  The **TCWB* tag is copied as text along with the image of the build, so sharing either is easy.
+*Copy* the current build to clipboard.  The **TCWB** tag is copied as text along with the image of the build, so sharing either is easy.
 
-*Paste* a **TCWB* tag from clipboard to load it.
+*Paste* a **TCWB** tag from clipboard to load it.
 
 *Remove all* cards from the current build to start fresh.  This allows adding any card you want.  It's okay, there is an undo if you change your mind.
 
@@ -291,6 +291,13 @@ Some future ideas, in no particular order.
 
 ### Windows App
 
+<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+<ms-store-badge
+    productid="9N6PZZ197256"
+    window-mode="full"
+    animation="on">
+</ms-store-badge>
+
 Welcome to Uncle Al's Proving Grounds!
 
 Car Wars Simulator is an unofficial "game aid" for the sixth edition of Steve Jackson Games' Car Wars (6e).
@@ -299,13 +306,6 @@ Car Wars Simulator is an unofficial "game aid" for the sixth edition of Steve Ja
 - EDIT your build with confidence knowing you can easily undo changes.
 - SAVE builds for yourself before your next game night or SHARE ideas with others.
 - Then...RUN a Monte Carlo SIMULATION against another build to compare results from hundreds or thousands of games!
-
-<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
-<ms-store-badge
-    productid="9N6PZZ197256"
-    window-mode="full"
-    animation="on">
-</ms-store-badge>
 
 ### Command-Line Interface (CLI)
 - [win-x64][download-link-win-x64]
