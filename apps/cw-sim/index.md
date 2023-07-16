@@ -261,7 +261,7 @@ Set the *Sample Size* desired for the simulation.  More games takes longer to si
 
 *Swap* the builds used for editing and comparison.  The "comparison build" is the competitor in simulations of the current build being edited.
 
-"Mark" the current build for comparison to replace it with a copy of the current build.  This is a currently a destructive action, so swap and save a copy of the comparison build if you need to keep it.
+*Mark* the current build for comparison to replace the competitor with a copy of the current build.  This is a destructive action (in this version), so swap and save a copy of the comparison build if you need to keep it.
 
 *Show summary* of the most recent simulation when you want to see it again.  It can review results from the most recent partial simulation caused by a simulation restart.  Any running simulation will restart when changes to builds or settings are made.
 
@@ -286,6 +286,7 @@ Some future ideas, in no particular order.
 - Detailed statistics in CSV format.
 - Video output for one-game simulations.  (These are fun to watch!)
 - Additional competitors, including team designations.
+- Include changes to competitor builds in undo/redo buffer.
 - Card browser independent of builds.
 - Improved browsing of cards during construction, weapon statistics, etc.
 - Warning when exceeding a target AP, BP, and CP.
