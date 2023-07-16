@@ -1,12 +1,26 @@
 # Car Wars Simulator
 
 <!-- vscode-markdown-toc -->
-* [About](#About)
-    * [Description](#Description)
-    * [Example](#Example)
-* [Download](#Download)
-* [Setup](#Setup)
-* [Resources](#Resources)
+- [Car Wars Simulator](#car-wars-simulator)
+  - [About](#about)
+    - [Description](#description)
+    - [Example](#example)
+  - [Help](#help)
+    - [User Interface](#user-interface)
+      - [Build Image](#build-image)
+      - [Workbench List](#workbench-list)
+      - [Menus](#menus)
+        - [File Menu](#file-menu)
+        - [Edit Menu](#edit-menu)
+        - [View Menu](#view-menu)
+        - [Sim Menu](#sim-menu)
+        - [Help Menu](#help-menu)
+      - [Future Ideas](#future-ideas)
+  - [Download](#download)
+    - [Windows App](#windows-app)
+    - [Command-Line Interface (CLI)](#command-line-interface-cli)
+      - [Setup](#setup)
+  - [Resources](#resources)
 
 <!-- vscode-markdown-toc-config
     numbering=false
@@ -18,32 +32,32 @@
 ## <a name='About'></a>About
 
 ```
-╔══════════════════════════════════════════════════════════════════════╗
-║ ┌─────────────────────────────┐                                      ║
-║ │                             │                                      ║
-║ │  hEBigGesTgUnSTheRiGHTofwa  │  /////////////////////////////////// ║
-║ │  GoestOthebiGGEstGUnsthERI  │  //                               // ║
-║ │  BiGGEStGuNSTHeRiGhtofwaYG  │  // Tiwahu Car Wars Simulator     // ║
-║ │  AYgOEStoTHEbIgGeSTguNstHe  │  // Copyright (c) 2022 Tim Huber. // ║
-║ │  GgesTGunstHerIGHtOFWAYgOE  │  // All Rights Reserved.          // ║
-║ │  FwayG ________   ___ UNst  │  //                               // ║
-║ │  eStG / ___/ _ | / _ \ eSt  │  // Tiwahu.CarWars.Sim.Console    // ║
-║ │  Tof / /__/ __ |/ , _/ GUN  │  // 0.5.79-beta+d1bc8e14d0        // ║
-║ │  tgU \___/_/ |_/_/|_| stOT  │  //                               // ║
-║ │   _      _____   ___  ____  │  /////////////////////////////////// ║
-║ │  | | /| / / _ | / _ \/ __/  │                                      ║
-║ │  | |/ |/ / __ |/ , _/\ \    │                                      ║
-║ │  |__/|__/_/ |_/_/|_/___/ I  │        an unofficial "game aid"      ║
-║ │                         gG  │           (REDACTED version)         ║
-║ │  tHEriGHtoFwaygOeStOthEbiG  │                                      ║
-║ │  NStHErIgHt     GoEStOtHEb  │                  for                 ║
-║ │  erightoFW  Sim  oTHEbigge  │                                      ║
-║ │  GUnsTHErIg     aygOeStoTh  │          ┌─────────────────┐         ║
-║ │  IghTOfWAYgOeStOTHeBIgGeSt  │          │ C A R   W A R S │         ║
-║ │  sTGunStHErightOFWaygOEsTO  │          │ (sixth edition) │         ║
-║ │                             │          └─────────────────┘         ║
-║ └─────────────────────────────┘                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════════════╗
+║ ┌─────────────────────────────┐                                           ║
+║ │                             │                                           ║
+║ │  hEBigGesTgUnSTheRiGHTofwa  │  //////////////////////////////////////// ║
+║ │  BiGGEStGuNSTHeRiGhtofwaYG  │  //                                    // ║
+║ │  AYgOEStoTHEbIgGeSTguNstHe  │  // Tiwahu Car Wars Simulator          // ║
+║ │  FwayG ________   ___ UNst  │  // Copyright (c) 2022-2023 Tim Huber. // ║
+║ │  eStG / ___/ _ | / _ \ eSt  │  // All Rights Reserved.               // ║
+║ │  Tof / /__/ __ |/ , _/ GUN  │  //                                    // ║
+║ │  tgU \___/_/ |_/_/|_| stOT  │  // Tiwahu.CarWars.Sim.Console         // ║
+║ │   _      _____   ___  ____  │  // 1.0.5-beta+6869a8d520              // ║
+║ │  | | /| / / _ | / _ \/ __/  │  //                                    // ║
+║ │  | |/ |/ / __ |/ , _/\ \    │  //////////////////////////////////////// ║
+║ │  |__/|__/_/ |_/_/|_/___/ I  │                                           ║
+║ │                         gG  │                                           ║
+║ │  GgesTGunstHerIGHtOFWAYgOE  │          an unofficial "game aid"         ║
+║ │  IghTOfWAYgOeStOTHeBIgGeSt  │             (REDACTED version)            ║
+║ │  NStHErI           StOtHEb  │                                           ║
+║ │  ghtoFW  Simulator  oTHEbi  │                     for                   ║
+║ │  GUnsTHE           OeStoTh  │                                           ║
+║ │  tHEriGHtoFwaygOeStOthEbiG  │             ┌─────────────────┐           ║
+║ │  GoestOthebiGGEstGUnsthERI  │             │ C A R   W A R S │           ║
+║ │  sTGunStHErightOFWaygOEsTO  │             │ (sixth edition) │           ║
+║ │                             │             └─────────────────┘           ║
+║ └─────────────────────────────┘                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
 
   ┌──────────────────────────────────────────────────────────────────┐
   │ Car Wars is a trademark of Steve Jackson Games, and its rules    │
@@ -56,7 +70,10 @@
   │ [*]: http://www.sjgames.com/general/online_policy.html           │
   └──────────────────────────────────────────────────────────────────┘
 
-Go buy more Car Wars products at: https://carwars.sjgames.com/
+╔═══════════════════════════════════╗
+║ Go buy more Car Wars products at: ║
+║ https://carwars.sjgames.com/      ║
+╚═══════════════════════════════════╝
 
   ╔═══════════════════════════════════════════════════════╗
   ║ Specify '--help' for available commands and options.  ║
@@ -160,8 +177,137 @@ In addition to creating a detailed single game report, video output visualizes m
 
 The already available `build` command constructs the **TCWB** car build configurations used for input to the simulator.
 
+## <a name='Help'></a>Help
+
+> Each command in the command-line interface has its own help documentation.  (Just use `--help` after any command.)
+
+### User Interface
+
+Imagine an interface that lets you build, modify, save, and share Car Wars (6e) builds.  Then, imagine being able to quickly simulate that build against virtual competitors to hone the configuration before your next game night.  You no longer need to imagine.
+
+While the command-line interface is quite powerful, sometimes you want the immediate visual satisfaction that desktop apps provide.  Now there is a way to quickly compare changes to prototypes against a chosen build.  No network connection required to edit builds and run simulations.
+
+Don't be fooled by the pretty point-click-or-tap interface. There are plenty of user-friendly keyboard accelerators for navigating the app quickly.
+
+#### Build Image
+
+Toggle zoom by tapping on the build image or using the F11 key.
+
+#### Workbench List
+
+Click a card in the workbench list to see its details.  Weapons cards include a unique display of probable roll results when attacking.
+
+Remove cards from the list with the red X.
+
+Duplicate cards or swap cards with the buttons under the remove button.
+
+Cards that do not have complete rules in simulations will show a warning symbol next to their name in the list.  They can be used in builds and simulations, but may skew simulation results.  If you want to see how well they work, just try them in your next game!
+
+#### Menus
+
+##### File Menu
+
+*Open* **TCWB** files from others or ones you've previously saved in the app.
+
+*Save* build definitions as **TCWB** files or images.  Various image layouts and formats are available under the *View* menu.  The build files themselves can be shared and modified by others.  All you need is a **TCWB** code (e.g., `tcwb4554xxxx264a734br11z`), but files make it easy.
+
+*Tag* values (e.g., `tcwb4554xxxx264a734br11z`) can load a build from others just entering it.
+
+*Generate* a random build, if you are looking for some inspiration.  Random builds attempt to match the Build (BP) and Crew (CP) of the current build, so add cards or open another build first.
+
+*Rename* your build to change the default name.  Clear the name to go back to using a default name.  The allowed characters in names in **TCWB** tags are limited.  Inputs are sanitized for embedding in tags and normalized for display. For example, `PascalCaseAndHyphens-are-useful` will display as `PASCAL CASE and HYPHENS - ARE - USEFUL`.
+
+*Share* the **TCWB** build and images, too.
+
+##### Edit Menu
+
+*Undo*. *Redo*.  Wash, rinse, repeat.  We all make mistakes, so undo and redo in the app is easy.  Or, maybe you don't make mistakes and just want to go backward and forward in time.  Now you can, Marty!
+
+*Copy* the current build to clipboard.  The **TCWB* tag is copied as text along with the image of the build, so sharing either is easy.
+
+*Paste* a **TCWB* tag from clipboard to load it.
+
+*Remove all* cards from the current build to start fresh.  This allows adding any card you want.  It's okay, there is an undo if you change your mind.
+
+*Add* new cards based on you current build.  The initial list is a random list of available cards.  Search and select to find the one you want to add the card.  Then, if the card requires placement on a side, choose from the available options.  Only cards valid to add to the current build are available.  For example, if you already have a Driver, remove the Driver card before trying to add a Driver.
+
+##### View Menu
+
+*Toggle view* of the workbench list display on and off to zoom into the build image.
+
+Set the *Layout* to default mode or binder format, when possible.
+
+Set the *Card Size* to mini or full, depending on the details you want.
+
+Set the *Tech Level* you want displayed on the cards.
+
+*Refresh* the view, if something looks stale.
+
+##### Sim Menu
+
+Once you build a car, put it through a simulator against other builds for analysis.
+
+*Run* the simulation to see results.
+
+*Stop* a runnning simulation early to see the intermediate results.
+
+Set the *Sample Size* desired for the simulation.
+
+*Swap* the builds used for editing and comparison.  The comparison build is the competitor of the current build in simulations.
+
+"Mark" the current build for comparison to replace it with a copy of the current build.  This is a destructive action, so save a copy of the comparison build if you want to keep it, or use the safer *Swap* action.
+
+*Show summary* of the most recent simulation when you want to see it again.  It can review results from the most recent partial simulation caused by a simulation restart.  A running simulation will restart when changes to builds or settings are made.
+
+##### Help Menu
+
+Get more [Car Wars products](https://carwars.sjgames.com/), find your way back here, or see a bunch of information for nerds with some cool ASCII art.
+
+#### Future Ideas
+
+Some future ideas, in no particular order.
+
+- Rules for more cards.
+- Additional simulator configuration options.
+- ~~Reset running simulation when builds change.~~ *Done!*
+- Estimated time to complete simulation.
+- More intermediate summary information during simulation.
+- Better statistic summary of simulations.
+- Video output from one-game simulation.
+- Additional competitors, including team designations.
+- Detailed statistics in CSV format.
+- Card browser independent of build.
+- Improved browsing of cards during construction, weapon statistics, etc.
+- Warning when exceeding a target AP, BP, and CP.
+- Generate random builds based on chosen target.
+- Move cards between sides (e.g., when cards cannot be duplicated).
+- Persist user settings.
+- Image preview of build files in Windows Explorer.
+- Load recent builds.
+- Saving images to a "printable" format.
+- Performance improvements.
+
 ## <a name='Download'></a>Download
 
+### Windows App
+
+Welcome to Uncle Al's Proving Grounds!
+
+Car Wars Simulator is an unofficial "game aid" for the sixth edition of Steve Jackson Games' Car Wars (6e).
+
+- BUILD your next car by searching for cards to add.
+- EDIT your build with confidence knowing you can easily undo changes.
+- SAVE builds for yourself before your next game night or SHARE ideas with others.
+- Then...RUN a Monte Carlo SIMULATION against another build to compare results from hundreds or thousands of games!
+
+<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+<ms-store-badge
+    productid="9N6PZZ197256"
+    window-mode="full"
+    animation="on">
+</ms-store-badge>
+
+### Command-Line Interface (CLI)
 - [win-x64][download-link-win-x64]
 - [win-arm64][download-link-win-arm64]
 - [linux-x64][download-link-linux-x64]
@@ -181,7 +327,7 @@ The already available `build` command constructs the **TCWB** car build configur
 > cwsim
 > ```
 
-## <a name='Setup'></a>Setup
+#### <a name='Setup'></a>Setup
 
 1. [Download](#Download) the command line app for your device.
 2. Open a command prompt in the directory of the executable.

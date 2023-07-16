@@ -97,7 +97,7 @@ function processRedirect() {
         link = "tiwahu-cw-sim:///" + cw;
 
         site = "Get the app";
-        url = "https://www.tiwahu.com/apps/cw-sim/";
+        url = "https://www.microsoft.com/store/apps/9N6PZZ197256";
     }
     else {
         app = "Tiwahu Software";
