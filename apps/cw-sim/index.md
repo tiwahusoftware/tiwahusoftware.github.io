@@ -97,7 +97,7 @@ The command-line interface attempts to be as user-friendly as possible.  Each co
 
 The construction of builds with the `build` command is a current highlight. The pool of available cards when constructing builds is limited by the valid option rules; however, incomplete and extreme builds remain possible.
 
-In their simplest form, builds are represented by a **TCWB** code (e.g., `tcwb4554xxxx264a734br11z`). For convenience, codes persist to `*.tcwb` files, which are plain text files containing additional human-readable information about the build. (The files can be opened by your preferred text editor.) These build definitions are a keystone to running single-game and Monte Carlo simulations.
+In their simplest form, builds are represented by a **TCWB** tag (e.g., `tcwb4554xxxx264a734br11z`). For convenience, tags persist to `*.tcwb` files, which are plain text files containing additional human-readable information about the build. (The files can be opened by your preferred text editor.) These build definitions are a keystone to running single-game and Monte Carlo simulations.
 
 - Use the `-i` option for interactive builds in the command line interface (e.g., `cwsim build -i`).
 
@@ -209,13 +209,19 @@ Cards that do not have complete rules in simulations will show a warning symbol 
 
 *Open* **TCWB** files from others or ones you've previously saved in the app.
 
-*Save* build definitions as **TCWB** files or images.  Various image layouts and formats are available under the *View* menu.  The build files themselves can be shared and modified by others.  All you need is a **TCWB** code (e.g., `tcwb4554xxxx264a734br11z`), but files make it easy.
+*Save* build definitions as **TCWB** files or images.  Various image layouts and formats are available under the *View* menu.  The build files themselves can be shared and modified by others.  All you need is a **TCWB** tag (e.g., `tcwb4554xxxx264a734br11z`), but files make it easy.
 
-*Tag* values (e.g., `tcwb4554xxxx264a734br11z`) can load a build from others just entering it.
+*Tag* can load a build (e.g., `tcwb4554xxxx264a734br11z`) from others just entering it.
 
 *Generate* a random build, if you are looking for some inspiration.  Random builds attempt to match the Build (BP) and Crew (CP) of the current build, so add cards or open another build first.
 
-*Rename* your build to change the default name.  Clear the name to go back to using a default name.  The allowed characters in names in **TCWB** tags are limited.  Inputs are sanitized for embedding in tags and normalized for display. For example, `PascalCaseAndHyphens-are-useful` will display as `PASCAL CASE and HYPHENS - ARE - USEFUL`.
+*Rename* your build to change the default name.  Clear the name to go back to using a default name.  The allowed characters in names in **TCWB** tags are limited.  Inputs are sanitized for embedding in tags and normalized for display.
+
+| Example Name                      | Display                                  |
+| --------------------------------- | ---------------------------------------- |
+| `PascalCaseAndHyphens-are-useful` | `PASCAL CASE and HYPHENS - ARE - USEFUL` |
+| `GunInTheGlovebox`                | `GUN in the GLOVEBOX`                    |
+| `SuperAceKiller-d6-v1`            | `SUPER ACE KILLER - D6 - V1`             |
 
 *Share* the **TCWB** build and images, too.
 
@@ -245,51 +251,59 @@ Set the *Tech Level* you want displayed on the cards.
 
 ##### Sim Menu
 
-Once you build a car, put it through a simulator against other builds for analysis.
+Once you build a car, put it through a simulator against other builds for analysis.  A [visualization with multiple cars show what a single game looks like](#example), but this runs hundreds or thousands of games and aggregates the results.  Some cards have limitations with use by bots (or the card-specific rules haven't been implemented yet).
 
 *Run* the simulation to see results.
 
-*Stop* a runnning simulation early to see the intermediate results.
+*Stop* a running simulation early to see the intermediate results.
 
-Set the *Sample Size* desired for the simulation.
+Set the *Sample Size* desired for the simulation.  More games takes longer to simulate but has a smaller margin of error.  Single game simulation isn't available, yet.
 
-*Swap* the builds used for editing and comparison.  The comparison build is the competitor of the current build in simulations.
+*Swap* the builds used for editing and comparison.  The "comparison build" is the competitor in simulations of the current build being edited.
 
-"Mark" the current build for comparison to replace it with a copy of the current build.  This is a destructive action, so save a copy of the comparison build if you want to keep it, or use the safer *Swap* action.
+"Mark" the current build for comparison to replace it with a copy of the current build.  This is a currently a destructive action, so swap and save a copy of the comparison build if you need to keep it.
 
-*Show summary* of the most recent simulation when you want to see it again.  It can review results from the most recent partial simulation caused by a simulation restart.  A running simulation will restart when changes to builds or settings are made.
+*Show summary* of the most recent simulation when you want to see it again.  It can review results from the most recent partial simulation caused by a simulation restart.  Any running simulation will restart when changes to builds or settings are made.
 
 ##### Help Menu
 
-Get more [Car Wars products](https://carwars.sjgames.com/), find your way back here, or see a bunch of information for nerds with some cool ASCII art.
+*Drive Offensively!* to [get more *Car Wars* products](https://carwars.sjgames.com/).
+
+*Documentation* will help you find your way back here.
+
+*About* displays a bunch of information for nerds and some cool ASCII art from the command-line app.
 
 #### Future Ideas
 
 Some future ideas, in no particular order.
 
-- Rules for more cards.
-- Additional simulator configuration options.
+- Rules for more cards!  (If there specific cards you want implemented, [let me know](mailto:contact@tiwahu.com?subject=Rules%20for%20card%2E%2E%2E).)
+- Additional simulator configuration options, such as arena size, layout, and armor points.
 - ~~Reset running simulation when builds change.~~ *Done!*
 - Estimated time to complete simulation.
-- More intermediate summary information during simulation.
-- Better statistic summary of simulations.
-- Video output from one-game simulation.
-- Additional competitors, including team designations.
+- More intermediate summary information during simulation.  (Not just win percentage.)
+- Better statistical summary of simulations.
 - Detailed statistics in CSV format.
-- Card browser independent of build.
+- Video output for one-game simulations.  (These are fun to watch!)
+- Additional competitors, including team designations.
+- Card browser independent of builds.
 - Improved browsing of cards during construction, weapon statistics, etc.
 - Warning when exceeding a target AP, BP, and CP.
-- Generate random builds based on chosen target.
-- Move cards between sides (e.g., when cards cannot be duplicated).
-- Persist user settings.
-- Image preview of build files in Windows Explorer.
-- Load recent builds.
-- Saving images to a "printable" format.
+- Generate random builds based on chosen target, rather than just current build.
+- Move cards between sides (e.g., when cards cannot be duplicated, like accessories).
+- Persist user settings (e.g., no need to set sample size to 10000 and view layout to binder builds every time).
+- Image preview of build files in Windows Explorer (e.g., prettier files).
+- Load recent builds from recently used list.
+- Saving images to a "printable" format (but it is already available in a few places, include `Ctrl+Shift+C` for copying to clipboard).
 - Performance improvements.
 
 ## <a name='Download'></a>Download
 
 ### Windows App
+
+Welcome to *Uncle Al's Proving Grounds*!
+
+<mark>COMING SOON!</mark>
 
 <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
 <ms-store-badge
@@ -298,9 +312,7 @@ Some future ideas, in no particular order.
     animation="on">
 </ms-store-badge>
 
-Welcome to Uncle Al's Proving Grounds!
-
-Car Wars Simulator is an unofficial "game aid" for the sixth edition of Steve Jackson Games' Car Wars (6e).
+*Car Wars Simulator* is an unofficial "game aid" for the sixth edition of Steve Jackson Games' Car Wars (6e).
 
 - BUILD your next car by searching for cards to add.
 - EDIT your build with confidence knowing you can easily undo changes.
