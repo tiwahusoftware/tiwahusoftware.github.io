@@ -8,6 +8,7 @@
   - [Help](#help)
     - [User Interface](#user-interface)
       - [Build Image](#build-image)
+      - [Comparison Build](#comparison-build)
       - [Workbench List](#workbench-list)
       - [Menus](#menus)
         - [File Menu](#file-menu)
@@ -181,7 +182,7 @@ The already available `build` command constructs the **TCWB** car build configur
 
 > Each command in the command-line interface has its own help documentation.  (Just use `--help` after any command.)
 
-### User Interface
+### <a name='UserInterface'></a>User Interface
 
 Imagine an interface that lets you build, modify, save, and share Car Wars (6e) builds.  Then, imagine being able to quickly simulate that build against virtual competitors to hone the configuration before your next game night.  [You no longer need to imagine.](#windows-app)
 
@@ -189,33 +190,39 @@ While the command-line interface is quite powerful, sometimes you want the immed
 
 Don't be fooled by the pretty point-click-or-tap interface. There are plenty of user-friendly keyboard accelerators for navigating the app quickly.
 
-#### Build Image
+#### <a name='BuildImage'></a>Build Image
 
-See the layout of your cards change dynamically as you make changes. Toggle zoom by tapping on the build image or using the F11 key.  The view can be customized with commands in the *View* menu.
+See the layout of your cards change dynamically as you make changes. Toggle zoom by tapping on the build image or using the `F11` key.  The view can be customized with commands in the *View* menu.
 
-#### Workbench List
+#### <a name='ComparisonBuild'></a>Comparison Build
 
-Click the name of a card in the workbench list to see its details.  Weapons cards include a unique display of probable roll results when used in an attack.
+The current build is used to set the "comparison" build in simulations.  Information about your current build is displayed in the bottom-left corner with the comparison build name and summary information next to it.  To copy your current build configuration to the comparison slot, "mark" it as the comparison build.  You can also "swap" builds, make changes, and swap the configurations back.  This is useful when you want to make changes to the comparison build independent of your current configuration.
 
-Remove cards from your build with the red X.
+While simulations are one of the unique features of the app, there is no need to run simulations.  You can use the build configuration and visualization features while ignoring the comparison build.
 
-Duplicate or swap cards with buttons under the remove button.  Cards can also be replaced by tapping their cost.
+#### <a name='WorkbenchList'></a>Workbench List
 
-Cards that do not have complete rules in simulations will show a warning symbol next to their name in the list.  They can be used in builds and simulations, but may skew simulation results.  If you want to see how well they work, just try them in your next game!
+The workbench list area is where builds come to life.  Rules constrain what cards can be added based on cards already added, but they don't prevent you from creating invalid builds.  For example, you can't add multiple turrets or two structure cards on the same side, but you can can add cards too big for a "small" game or not add a gunner.  
 
-#### Menus
+Click the name of a cards in the workbench list to see its details.  Weapon cards include a unique display of probable roll results when using the weapon in an attack.
+
+Remove cards from your build with the red X.  The `Delete` key will remove all cards so you start from scratch.
+
+Duplicate or swap cards with command buttons under the remove button.  Tapping the cost circle on the right side of a card in the list will initiate a replacement card search.
+
+Cards that do not have complete rules in simulations will show a warning symbol next to their name in the list.  Those cards can be used in builds and simulations, but may skew simulation results.  Generally, rules that earns additional Ace or Control tokens each round are included, even when there is a warning about other rules for the card.  Of course, if you want to see how well cards with a warning will work, just try them in your next game!
+
+#### <a name='Menus'></a>Menus
+
+Menus provide easy access to commands and show their keyboard accelerators.
 
 ##### File Menu
 
-*Open* **TCWB** files from others or ones you've previously saved in the app.
+*Open* (`Ctrl+O`) **TCWB** files from others or ones you've previously saved in the app.
 
-*Save* build definitions as **TCWB** files or images.  Various image layouts and formats are available under the *View* menu.  The build files themselves can be shared and modified by others.  All you need is a **TCWB** tag (e.g., `tcwb4554xxxx264a734br11z`), but files make it easy.
+*Save* (`Ctrl+S`) build definitions as **TCWB** files or images.  Various image layouts and formats are available under the *View* menu.  The build files themselves can be shared and modified by others.  All you need is a **TCWB** tag (e.g., `tcwb4554xxxx264a734br11z`), but files make it easy.
 
-*Tag* can load a build (e.g., `tcwb4554xxxx264a734br11z`) from others just entering it.
-
-*Generate* a random build, if you are looking for some inspiration.  Random builds attempt to match the Build (BP) and Crew (CP) of the current build, so add cards or open another build first.
-
-*Rename* your build to change the default name.  Clear the name to go back to using a default name.  The allowed characters in names in **TCWB** tags are limited.  Inputs are sanitized for embedding in tags and normalized for display.
+*Rename* (`F2`) your build to change the default name.  Clear the name to go back to using a default name.  The allowed characters in names in **TCWB** tags are limited.  Inputs are sanitized for embedding in tags and normalized for display.
 
 | Example Name                      | Display                                  |
 | --------------------------------- | ---------------------------------------- |
@@ -223,23 +230,27 @@ Cards that do not have complete rules in simulations will show a warning symbol 
 | `GunInTheGlovebox`                | `GUN in the GLOVEBOX`                    |
 | `SuperAceKiller-d6-v1`            | `SUPER ACE KILLER - D6 - V1`             |
 
-*Share* the **TCWB** build and images, too.
+*Tag* (`Ctrl+T`) can load a build (e.g., `tcwb4554xxxx264a734br11z`) from others just entering it.
+
+*Generate* (`Ctrl+G`) a random build, if you are looking for some inspiration.  Random builds attempt to match the Build (BP) and Crew (CP) of the current build, so add cards or open another build first.
+
+*Share* (`Ctrl+H`) the **TCWB** build tag, file, or images.
 
 ##### Edit Menu
 
-*Undo*. *Redo*.  Wash, rinse, repeat.  We all make mistakes, so undo and redo in the app is easy.  Or, maybe you don't make mistakes and just want to go backward and forward in time.  Now you can, Marty!
+*Undo* (`Ctrl+Z`). *Redo* (`Ctrl+Y`).  Wash, rinse, repeat.  We all make mistakes, so undo and redo in the app is easy.  Or, maybe you don't make mistakes and just want to go backward and forward in time.  Now you can, Marty!
 
-*Copy* the current build to clipboard.  The **TCWB** tag is copied as text along with the image of the build, so sharing either is easy.
+*Copy* (`Ctrl+C`) the current build to clipboard.  The **TCWB** tag is copied as text along with an image of the build, so sharing either the tag or image is easy.  You can copy a lighter color image to the clipboard with `Ctrl+Shift+C`.
 
-*Paste* a **TCWB** tag from clipboard to load it.
+*Paste* (`Ctrl+V`) a **TCWB** tag from clipboard to load it.
 
-*Remove all* cards from the current build to start fresh.  This allows adding any card you want.  It's okay, there is an undo if you change your mind.
+*Remove all* (`Delete`) cards from the current build to start fresh.  This allows adding any card you want.  It's okay, there is an undo if you change your mind.
 
-*Add* new cards based on you current build.  The initial list is a random list of available cards.  Search and select to find the one you want to add the card.  Then, if the card requires placement on a side, choose from the available options.  Only cards valid to add to the current build are available.  For example, if you already have a Driver, remove the Driver card before trying to add a Driver.
+*Add* (`Ctrl+F`) new cards based on you current build by finding them in a search.  The initial list is a random set of available cards.  Search and select the card you want to add.  Then, if the card requires placement on a side, choose from the available options.  Only cards valid for addition to the current build are presented.  For example, if you already have a Driver, you need to remove the Driver card before trying to add another Driver (or use a replacement command).
 
 ##### View Menu
 
-*Toggle view* of the workbench list display on and off to zoom into the build image.
+*Toggle view* (`F11`) of the workbench list display on and off to zoom into the build image.
 
 Set the *Layout* to default mode or binder format, when possible.
 
@@ -247,33 +258,33 @@ Set the *Card Size* to mini or full, depending on the details you want.
 
 Set the *Tech Level* you want displayed on the cards.
 
-*Refresh* the view, if something looks stale.
+*Refresh* (`F5`) the view, if something looks stale.
 
 ##### Sim Menu
 
 Once you build a car, put it through a simulator against other builds for analysis.  A [visualization with multiple cars show what a single game looks like](#example), but this runs hundreds or thousands of games and aggregates the results.  Some cards have limitations with use by bots (or the card-specific rules haven't been implemented yet).
 
-*Run* the simulation to see results.
+*Run* (`Ctrl+R`) the simulation to see results.
 
-*Stop* a running simulation early to see the intermediate results.
+*Stop* (`Ctrl+Shift+F`) a running simulation early to see the intermediate results.
 
 Set the *Sample Size* desired for the simulation.  More games takes longer to simulate but has a smaller margin of error.  Single game simulation isn't available, yet.
 
-*Swap* the builds used for editing and comparison.  The "comparison build" is the competitor in simulations of the current build being edited.
+*Swap* (`Ctrl+B`) the builds used for editing and comparison.  The "comparison build" is the competitor in simulations of the current build being edited.
 
-*Mark* the current build for comparison to replace the competitor with a copy of the current build.  This is a destructive action (in this version), so swap and save a copy of the comparison build if you need to keep it.
+*Mark* (`Ctrl+Shift+B`) the current build for comparison to replace the competitor with a copy of the current build.  This is a destructive action (in this version), so swap and save a copy of the comparison build if you need to keep it.
 
-*Show summary* of the most recent simulation when you want to see it again.  It can review results from the most recent partial simulation caused by a simulation restart.  Any running simulation will restart when changes to builds or settings are made.
+*Show summary* (`Ctrl+M`) of the most recent simulation when you want to see it again.  It can review results from the most recent partial simulation caused by a simulation restart.  Any running simulation will restart when changes to builds or settings are made.
 
 ##### Help Menu
 
-*Drive Offensively!* to [get more *Car Wars* products](https://carwars.sjgames.com/).
+*Drive Offensively!* (`Ctrl+Shift+F1`) to [get more *Car Wars* products](https://carwars.sjgames.com/).
 
-*Documentation* will help you find your way back here.
+*Documentation* (`Ctrl+F1`) will help you find your way back here.
 
-*About* displays a bunch of information for nerds and some cool ASCII art from the command-line app.
+*About* (`F1`) displays a bunch of information for nerds and some cool ASCII art from the command-line app.
 
-#### Future Ideas
+#### <a name='FutureIdeas'></a>Future Ideas
 
 Some future ideas, in no particular order.
 
@@ -300,11 +311,9 @@ Some future ideas, in no particular order.
 
 ## <a name='Download'></a>Download
 
-### Windows App
+### <a name='WindowsApp'></a>Windows App
 
 Welcome to *Uncle Al's Proving Grounds*!
-
-<mark>COMING SOON!</mark>
 
 <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
 <ms-store-badge
@@ -315,12 +324,11 @@ Welcome to *Uncle Al's Proving Grounds*!
 
 *Car Wars Simulator* is an unofficial "game aid" for the sixth edition of Steve Jackson Games' Car Wars (6e).
 
-- BUILD your next car by searching for cards to add.
-- EDIT your build with confidence knowing you can easily undo changes.
-- SAVE builds for yourself before your next game night or SHARE ideas with others.
-- Then...RUN a Monte Carlo SIMULATION against another build to compare results from hundreds or thousands of games!
+- BUILD your next car by searching for cards and EDIT with confidence knowing you can easily undo changes.
+- SAVE builds before your next game night or SHARE ideas with others.
+- RUN a Monte Carlo SIMULATION against another build to compare results from hundreds or thousands of games!
 
-### Command-Line Interface (CLI)
+### <a name='Command-LineInterfaceCLI'></a>Command-Line Interface (CLI)
 - [win-x64][download-link-win-x64]
 - [win-arm64][download-link-win-arm64]
 - [linux-x64][download-link-linux-x64]
