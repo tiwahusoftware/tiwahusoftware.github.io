@@ -188,7 +188,7 @@ Imagine an interface that lets you build, modify, save, and share Car Wars (6e) 
 
 While the command-line interface is quite powerful, sometimes you want the immediate visual satisfaction that desktop apps provide.  Now there is a way to quickly compare changes to prototypes against a chosen build.  No network connection required to edit builds and run simulations.
 
-Don't be fooled by the pretty point-click-or-tap interface. There are plenty of user-friendly keyboard accelerators for navigating the app quickly.
+Don't be fooled by the pretty point-and-click interface. There are plenty of user-friendly keyboard accelerators for navigating the app quickly.
 
 #### <a name='BuildImage'></a>Build Image
 
@@ -196,13 +196,13 @@ See the layout of your cards change dynamically as you make changes. Toggle zoom
 
 #### <a name='ComparisonBuild'></a>Comparison Build
 
-The current build is used to set the "comparison" build in simulations.  Information about your current build is displayed in the bottom-left corner with the comparison build name and summary information next to it.  To copy your current build configuration to the comparison slot, "mark" it as the comparison build.  You can also "swap" builds, make changes, and swap the configurations back.  This is useful when you want to make changes to the comparison build independent of your current configuration.
+The current build is used to set the "comparison" build in simulations.  Information about your current build is displayed in the bottom-left corner with the comparison build name and summary information next to it.  To copy your current build configuration to the comparison slot, "mark" it as the comparison build.  You can also "swap" builds, make changes, and swap the configurations back.  Swap is useful when you want to make changes to the comparison build independent of your current configuration.
 
 While simulations are one of the unique features of the app, there is no need to run simulations.  You can use the build configuration and visualization features while ignoring the comparison build.
 
 #### <a name='WorkbenchList'></a>Workbench List
 
-The workbench list area is where builds come to life.  Rules constrain what cards can be added based on cards already added, but they don't prevent you from creating invalid builds.  For example, you can't add multiple turrets or two structure cards on the same side, but you can can add cards too big for a "small" game or not add a gunner.  
+The workbench list area is where builds come to life.  Rules constrain what cards can be added based on cards already added, but they don't prevent you from creating invalid builds.  For example, you can't add multiple turrets or two structure cards on the same side, but you can can add cards too big for a "small" game or forget to add a gunner.  
 
 Click the name of a cards in the workbench list to see its details.  Weapon cards include a unique display of probable roll results when using the weapon in an attack.
 
@@ -288,7 +288,7 @@ Set the *Sample Size* desired for the simulation.  More games takes longer to si
 
 Some future ideas, in no particular order.
 
-- Rules for more cards!  (If there specific cards you want implemented, [let me know](mailto:contact@tiwahu.com?subject=Rules%20for%20card%2E%2E%2E).)
+- Rules for more cards!  (Something you want? [Let me know](mailto:contact@tiwahu.com?subject=Rules%20for%20card%2E%2E%2E)!)
 - Additional simulator configuration options, such as arena size, layout, and armor points.
 - ~~Reset running simulation when builds change.~~ *Done!*
 - Estimated time to complete simulation.
@@ -327,6 +327,8 @@ Welcome to *Uncle Al's Proving Grounds*!
 - BUILD your next car by searching for cards and EDIT with confidence knowing you can easily undo changes.
 - SAVE builds before your next game night or SHARE ideas with others.
 - RUN a Monte Carlo SIMULATION against another build to compare results from hundreds or thousands of games!
+
+After downloading, read [more about how to use the app](#user-interface) above.
 
 ### <a name='Command-LineInterfaceCLI'></a>Command-Line Interface (CLI)
 - [win-x64][download-link-win-x64]
