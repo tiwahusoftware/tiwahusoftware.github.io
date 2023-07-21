@@ -43,12 +43,17 @@ function requestHashPath(key, defaultValue) {
     if (h) {
         if (h.length > 1) {
             if (h[0] == '#') {
+                h = h.substring(1);
+
+                if (h[0] == '/') 
+                    h = h.substring(1);
+
                 if (key == null)
-                    return h.substring(1);
+                    return h;
 
                 var index = h.indexOf("/", 2);
                 if (index > 1) {
-                    var code = h.substring(1, index);
+                    var code = h.substring(0, index - 1);
                     if (code == key) {
                         return h.substring(index + 1);
                     }
@@ -78,9 +83,9 @@ function processRedirect() {
     var cw = requestHashPath("cw-sim", null) ?? requestSearch("cw-sim", null);
 
     var p = window.top.location.pathname;
-    if (p.endsWith("/lma"))
+    if (p.endsWith("/lma") || p.endsWith("/lma/"))
         lma = requestHashPath(null, null) ?? requestSearch("id", null);
-    else if (p.endsWith("/cw-sim"))
+    else if (p.endsWith("/cw-sim") || p.endsWith("/cw-sim/"))
         cw = requestHashPath(null, null) ?? requestSearch("tag", null);
 
     if (lma != null) {
