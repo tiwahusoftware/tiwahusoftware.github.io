@@ -1,6 +1,10 @@
 # Apps
 
-## Windows
+## Featured
+
+### Car Wars Simulator
+
+[![Car Wars Simulator][cw-img]](./cw-sim)
 
 ### Llama Music
 
@@ -10,21 +14,15 @@
 
 [![Really Awesome Bitmap Inverter App][store-rabia-img]](./rabia)
 
-## Console
+### Oh My Posh Tiwahu Theme
 
-### Car Wars Simulator
+[![Oh My Posh Tiwahu Theme][ohmyposh-tiwahu-img]](https://ohmyposh.dev/docs/themes#tiwahu)
 
-[![Car Wars Simulator][cw-img]](./cw-sim)
+## Archive
 
-## Fitbit Versa
-
-### Clockfaces
-
-#### Tiwahu Clock
+### Fitbit Versa Tiwahu Clockface
 
 [![Tiwahu Clock][store-clockface-img]](./tiwahu-clock)
-
-## Windows Phone 8
 
 ### Live Music Access
 
@@ -35,3 +33,4 @@
 [store-clockface-img]: ../img/store-tiwahu-clock-252x252.png
 [store-rabia-img]: ../img/store-rabia-252x252.png
 [store-lma-legacy-img]: ../img/store-lma-legacy-252x252.png
+[ohmyposh-tiwahu-img]: ../img/ohmyposh-tiwahu-252x252.png
