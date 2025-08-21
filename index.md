@@ -1,8 +1,8 @@
-# Home | [Apps] | [Mantras] | [Music]
+## Home | [Apps] | [Mantras] | [Music]
 
-## Featured app
+### Featured app
 
-### [Car Wars Simulator]
+#### [Car Wars Simulator]
 
 [![Car Wars Simulator][cw-img]](./apps/cw-sim)
 
@@ -34,7 +34,7 @@ Be sure to check out [other apps, too!][apps]
 
 ----
 
-## Contact
+### Contact
 
 [<img src="img/twitter-icon-252x252.png" width="80" height="80" title="@tiwahu" />](https://x.com/tiwahu/)
 

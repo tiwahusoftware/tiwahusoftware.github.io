@@ -1,30 +1,30 @@
-# [Home] | Apps | [Mantras] | [Music]
+## [Home] | Apps | [Mantras] | [Music]
 
-## Featured apps
+### Featured apps
 
-### Car Wars Simulator
+#### Car Wars Simulator
 
 [![Car Wars Simulator][cw-img]](./cw-sim)
 
-### Llama Music
+#### Llama Music
 
 [![Llama Music][store-lma-img]](./llama-music)
 
-### Really Awesome Bitmap Inverter App
-
-[![Really Awesome Bitmap Inverter App][store-rabia-img]](./rabia)
-
-### Oh My Posh Tiwahu Theme
+#### Oh My Posh Tiwahu Theme
 
 [![Oh My Posh Tiwahu Theme][ohmyposh-tiwahu-img]](https://ohmyposh.dev/docs/themes#tiwahu)
 
-## Archive
+### Archived apps
 
-### Fitbit Versa Tiwahu Clockface
+#### Really Awesome Bitmap Inverter App
+
+[![Really Awesome Bitmap Inverter App][store-rabia-img]](./rabia)
+
+#### Fitbit Versa Tiwahu Clockface
 
 [![Tiwahu Clock][store-clockface-img]](./tiwahu-clock)
 
-### Live Music Access
+#### Live Music Access
 
 [![Live Music Access][store-lma-legacy-img]](./live-music-access)
 

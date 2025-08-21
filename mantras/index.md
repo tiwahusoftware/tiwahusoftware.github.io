@@ -1,6 +1,8 @@
-# [Home] | [Apps] | Mantras | [Music]
+## [Home] | [Apps] | Mantras | [Music]
 
 The following is a collection of my software development mantras (i.e., "Timantras") that I've created and/or curated over more than a quarter century, and used as guidance, in no particular order...
+
+---
 
 - "Case always matters, except when it doesn't."
   - Beware of culture-sensitive casing conversions when you don't need or want them.
@@ -19,7 +21,7 @@ The following is a collection of my software development mantras (i.e., "Timantr
   - Fewer variables means fewer things that can change.
   - Fewer things that can change means fewer things that can go wrong.
 
-- "Can't do much with one line of code, but two lines of code is the most powerful thing in the world."
+- "Can't do much with one line of code, but two lines of code is the *most powerful thing in the world*."
   - Be careful with conditions.
   - Every line matters.
 
@@ -36,6 +38,7 @@ The following is a collection of my software development mantras (i.e., "Timantr
 - "Just because it works, doesn't mean it's right."
 
 - "Don't expose your [privates](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/private), but you can be [friendly](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.compilerservices.internalsvisibletoattribute) with [internals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/internal)."
+
 - "Don't [cross the streams](https://youtu.be/jyaLZHiJJnE) (between environments)."
   - But, in some cases, you need to take down the *Stay-Puft Marshmallow Man*.
 
@@ -73,16 +76,18 @@ The following is a collection of my software development mantras (i.e., "Timantr
   - "Cache expiration and naming things are hard because the future is yet to be written."
 
 - "That's RIDICULOUS!"
-  - Acronym: Redundant Input Derivable in Context Using Locally Observable User State
+  - Acronym: **R**edundant **I**nput **D**erivable **I**n **C**ontext **U**sing **L**ocally **O**bservable **U**ser **S**tate
 
 - "That's YARFY!"
-  - Acronym: Yet Another Reason For YAML
+  - Acronym: **Y**et **A**nother **R**eason **F**or **Y**AML
 
 - "[Hot Millions!](https://en.wikipedia.org/wiki/Hot_Millions)"
   > A programmer must be analytical, imaginative, logical
+
   > A programmer must be capable of concentration, reasoning, meticulous care
 
 - "Sometimes, circumstances dictate more than personal choice."
+  
   &mdash;Shawn, *Psych*, Season 8 Episode 10 "The Break-Up"
 
 - "Be nice to database, it'll be nice to you; don't ask it to do things you don't need it to do."
