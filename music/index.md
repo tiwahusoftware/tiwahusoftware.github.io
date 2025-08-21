@@ -1,12 +1,16 @@
-# Music
+---
+title: Music | Tiwahu Software
+---
 
-## [Home] | [Apps] | [Mantras]
+## [Home] | [Apps] | [Mantras] | Music
 
-**Tiwahu** band plays *all-original* instrumental songs on guitar.
+The one and only **Tiwahu** band plays *all-original* instrumental songs on electric guitar.
 
 ### Featured show
 
-<iframe src="https://archive.org/embed/tiwahu2025-07-23.sbd.flac24&playlist=1" width="500" height="300" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+[![Tiwahu Live at My Living Room, Northern Liberties on 2025-07-23](tiwahu2025-07-23.sbd.flac24.jpg)](https://archive.org/details/tiwahu2025-07-23.sbd.flac24)
+
+<iframe src="https://archive.org/embed/tiwahu2025-07-23.sbd.flac24&playlist=1" width="640" height="320" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
 ### Live Music Archive
 

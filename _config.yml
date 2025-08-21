@@ -2,3 +2,14 @@ theme: jekyll-theme-slate
 title: Tiwahu Software
 description: getting everything just exactly perfect
 show_downloads: false
+twitter:
+  username: tiwahu
+  card: summary
+social:
+  name: Tim Huber
+  links:
+    - https://twitter.com/tiwahu
+    - https://www.facebook.com/tiwahu
+    - https://www.linkedin.com/in/tiwahu
+    - https://github.com/tiwahu
+    - https://keybase.io/tiwahu

@@ -1,6 +1,8 @@
-# Apps
+---
+title: Apps | Tiwahu Software
+---
 
-## [Home] | [Mantras] | [Music]
+## [Home] | Apps | [Mantras] | [Music]
 
 ### Featured apps
 
