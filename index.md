@@ -1,6 +1,6 @@
 # Home
 
-## [Apps]
+## [Apps] | [Mantras] | [Music]
 
 ### [Car Wars Simulator]
 
@@ -36,9 +36,12 @@ Be sure to check out [other apps, too!][apps]
 
 ## Contact
 
-[<img src="img/twitter-icon-252x252.png" width="80" height="80" title="@tiwahu" />](https://twitter.com/tiwahu/)
+[<img src="img/twitter-icon-252x252.png" width="80" height="80" title="@tiwahu" />](https://x.com/tiwahu/)
+
 
 [apps]: /apps/index.md
+[mantras]: /mantras/index.md
+[music]: /music/index.md
 [llama music]: /apps/llama-music/index.md
 [llama music features]: /apps/llama-music/index.md#feature-highlights
 [car wars simulator]: /apps/cw-sim/index.md
