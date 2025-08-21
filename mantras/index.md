@@ -89,8 +89,7 @@ The following is a collection of my software development mantras (i.e., "Timantr
   > A programmer must be capable of concentration, reasoning, meticulous care
 
 - "Sometimes, circumstances dictate more than personal choice."
-  
-  &mdash;Shawn, *Psych*, Season 8 Episode 10 "The Break-Up"
+  - &mdash;Shawn, *Psych*, Season 8 Episode 10 "The Break-Up"
 
 - "Be nice to database, it'll be nice to you; don't ask it to do things you don't need it to do."
 
@@ -101,7 +100,7 @@ The following is a collection of my software development mantras (i.e., "Timantr
   - Tell us why the code is there.
   - Tell us what you are thinking.
   - Document summary and intent...and sometimes echo of code for sanity check review.
-  - [Comments are more important than code][https://spawn-queue.acm.org/doi/pdf/10.1145/1053331.1053354]
+  - [Comments are more important than code](https://spawn-queue.acm.org/doi/pdf/10.1145/1053331.1053354)
 
 - "Unit tests are locks on implementations."
   - They create implicit introspections.

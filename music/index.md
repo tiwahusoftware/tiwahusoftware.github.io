@@ -6,7 +6,7 @@
 
 ### Featured show
 
-<iframe src="https://archive.org/embed/tiwahu2025-07-23.sbd.flac24&playlist=1" width="640" height="320" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<iframe src="https://archive.org/embed/tiwahu2025-07-23.sbd.flac24&playlist=1" width="500" height="300" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
 ### Live Music Archive
 
