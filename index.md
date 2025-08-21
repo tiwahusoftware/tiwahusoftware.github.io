@@ -1,8 +1,6 @@
 # Home | [Apps] | [Mantras] | [Music]
 
-## Featured App
-
-See [more][apps]!
+## Featured app
 
 ### [Car Wars Simulator]
 

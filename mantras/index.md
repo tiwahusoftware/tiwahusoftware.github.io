@@ -1,6 +1,6 @@
 # [Home] | [Apps] | Mantras | [Music]
 
-A collection of my software development mantras (i.e., "Timantras") that I've created and/or curated for more than a quarter century, and used as guidance, in no particular order...
+The following is a collection of my software development mantras (i.e., "Timantras") that I've created and/or curated over more than a quarter century, and used as guidance, in no particular order...
 
 - "Case always matters, except when it doesn't."
   - Beware of culture-sensitive casing conversions when you don't need or want them.
@@ -128,7 +128,7 @@ A collection of my software development mantras (i.e., "Timantras") that I've cr
   - Within one language or technology the interpersonal differences between implementations of the *same* program written by *different* programmers ("bad/good ratio") are much larger than the average difference between another language or technology.
   - "Technology matters to the people doing the work."
 
-[home]: /index.md
-[apps]: /apps/index.md
-[mantras]: /mantras/index.md
-[music]: /music/index.md
+[home]: ../index.md
+[apps]: ../apps/index.md
+[mantras]: ../mantras/index.md
+[music]: ../music/index.md

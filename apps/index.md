@@ -1,6 +1,6 @@
 # [Home] | Apps | [Mantras] | [Music]
 
-## Featured
+## Featured apps
 
 ### Car Wars Simulator
 
@@ -28,10 +28,10 @@
 
 [![Live Music Access][store-lma-legacy-img]](./live-music-access)
 
-[home]: /index.md
-[apps]: /apps/index.md
-[mantras]: /mantras/index.md
-[music]: /music/index.md
+[home]: ../index.md
+[apps]: ../apps/index.md
+[mantras]: ../mantras/index.md
+[music]: ../music/index.md
 
 [cw-img]: ../img/cw-sim-252x252.png
 [store-lma-img]: ../img/store-lma-252x252.png
