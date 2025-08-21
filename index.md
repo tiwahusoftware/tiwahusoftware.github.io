@@ -2,7 +2,7 @@
 title: Tiwahu Software
 ---
 
-## Home | [Apps] | [Mantras] | [Music]
+## Home...[Apps]...[Mantras]...[Music]...
 
 ### Featured app
 
