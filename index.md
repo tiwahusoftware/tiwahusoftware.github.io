@@ -1,4 +1,6 @@
-## Home | [Apps] | [Mantras] | [Music]
+# Home
+
+## [Apps] | [Mantras] | [Music]
 
 ### Featured app
 

@@ -1,4 +1,6 @@
-## [Home] | [Apps] | Mantras | [Music]
+# Mantras
+
+## [Home] | [Apps] | [Music]
 
 The following is a collection of my software development mantras (i.e., "Timantras") that I've created and/or curated over more than a quarter century, and used as guidance, in no particular order...
 
