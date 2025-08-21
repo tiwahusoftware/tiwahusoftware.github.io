@@ -1,6 +1,8 @@
-# Home
+# Home | [Apps] | [Mantras] | [Music]
 
-## [Apps] | [Mantras] | [Music]
+## Featured App
+
+See [more][apps]!
 
 ### [Car Wars Simulator]
 
@@ -42,6 +44,7 @@ Be sure to check out [other apps, too!][apps]
 [apps]: /apps/index.md
 [mantras]: /mantras/index.md
 [music]: /music/index.md
+
 [llama music]: /apps/llama-music/index.md
 [llama music features]: /apps/llama-music/index.md#feature-highlights
 [car wars simulator]: /apps/cw-sim/index.md
