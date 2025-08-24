@@ -16,12 +16,12 @@ title: Tiwahu Software
 - SAVE builds before your next game night or SHARE ideas with others.
 - RUN a Monte Carlo SIMULATION against another build to compare results from hundreds or thousands of games!
 
-  <video width="360" height="240" controls>
-    <source src="/img/cw-sim/example-sim-x4-3x3.mp4" type="video/mp4">
-    <p>
-      Your browser doesn't support HTML video, but you can <a href="/img/cw-sim/example-sim-x4-3x3.mp4">download the video</a> instead.
-    </p>
-  </video>
+<video style="width: 100%; height: auto;" controls>
+  <source src="/img/cw-sim/example-sim-x4-3x3.mp4" type="video/mp4">
+  <p>
+    Your browser doesn't support HTML video, but you can <a href="/img/cw-sim/example-sim-x4-3x3.mp4">download the video</a> instead.
+  </p>
+</video>
 
 Welcome to *Uncle Al's Proving Grounds*!
 
