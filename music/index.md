@@ -2,9 +2,9 @@
 title: Music
 ---
 
-## [Home]...[Apps]...[Mantras]...Music...
+## [Apps]...[Mantras]...Music...
 
-The one and only **Tiwahu** band plays *all-original* instrumental songs on electric guitar.
+The one and only **Tiwahu** band plays *all-original* instrumental songs on electric guitar.  Live recordings are posted on [archive.org][ia-tiwahu] for all to enjoy.
 
 ### Featured show
 

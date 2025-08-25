@@ -2,7 +2,7 @@
 title: Apps
 ---
 
-## [Home]...Apps...[Mantras]...[Music]...
+## Apps...[Mantras]...[Music]...
 
 ### Featured apps
 
