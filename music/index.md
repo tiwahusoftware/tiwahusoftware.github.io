@@ -6,6 +6,14 @@ title: Music
 
 The one and only **Tiwahu** band plays *all-original* instrumental songs on electric guitar.  Live recordings are posted on [archive.org][ia-tiwahu] for all to enjoy.
 
+### <mark>New album release on 2026-02-01!</mark>
+
+<iframe src="https://show.co/social-unlock/1X2H6vx56uoCCc9qzO64CJ/widget" width="100%" height="450" frameborder="0"></iframe>
+
+<!--// https://show.co/iHtV6Oz //-->
+
+---
+
 ### Featured show
 
 [![Tiwahu Live at My Living Room, Northern Liberties on 2025-07-23](tiwahu2025-07-23.sbd.flac24.jpg)](https://archive.org/details/tiwahu2025-07-23.sbd.flac24)
