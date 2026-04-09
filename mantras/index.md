@@ -79,6 +79,8 @@ The following is a collection of my software development mantras (i.e., "Timantr
   - I just solved your [two hardest things](https://martinfowler.com/bliki/TwoHardThings.html).
   - "Cache expiration and naming things are hard because the future is yet to be written."
 
+- "The more you rename things, the better to get at naming things in the first place; the less you rename things, the better you get at living with bad decisions."
+
 - "That's RIDICULOUS!"
   - Acronym: **R**edundant **I**nput **D**erivable **I**n **C**ontext **U**sing **L**ocally **O**bservable **U**ser **S**tate
 
