@@ -9,33 +9,35 @@ title: Calendar
   <!-- Buttons -->
   <div style="display:flex; flex-wrap:wrap; gap:0.75rem; margin:1rem 0;">
     <!-- iOS / macOS -->
-    <a
-      id="btn-apple"
-      href="webcal://calendar.tiwahu.com/futuredaysbeer/calendar.ics"
-      style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.6rem 1rem; border-radius:999px; background:#000; color:#fff; text-decoration:none; font-weight:600; font-size:0.95rem;"
-    >
-      <span style="font-size:1.2rem;"></span>
-      <span>Add to Apple Calendar</span>
+    <a id="btn-apple"
+    href="webcal://calendar.tiwahu.com/futuredaysbeer/calendar.ics"
+    style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.6rem
+    1rem; border-radius:999px; background:#000; color:#fff;
+    text-decoration:none; font-weight:600; font-size:0.95rem;"
+    > 
+      <span style="font-size:1.2rem;"></span> <span>Add to Apple
+      Calendar</span>
     </a>
 
     <!-- Google Calendar (generic / Android-friendly) -->
-    <a
-      id="btn-google"
-      href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl?url=https%3A%2F%2Fcalendar.tiwahu.com%2Ffuturedaysbeer%2Fcalendar.ics"
-      style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.6rem 1rem; border-radius:999px; background:#4285F4; color:#fff; text-decoration:none; font-weight:600; font-size:0.95rem;"
-    >
-      <span style="font-size:1.2rem;">📅</span>
-      <span>Add to Google Calendar</span>
+    <a id="btn-google"
+    href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl?url=https%3A%2F%2Fcalendar.tiwahu.com%2Ffuturedaysbeer%2Fcalendar.ics"
+    style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.6rem
+    1rem; border-radius:999px; background:#4285F4; color:#fff;
+    text-decoration:none; font-weight:600; font-size:0.95rem;"
+    > 
+      <span style="font-size:1.2rem;">📅</span> <span>Add to Google
+      Calendar</span>
     </a>
 
     <!-- Raw ICS link (fallback) -->
-    <a
-      id="btn-ics"
-      href="https://calendar.tiwahu.com/futuredaysbeer/calendar.ics"
-      style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.6rem 1rem; border-radius:999px; border:1px solid #ccc; color:#333; text-decoration:none; font-weight:500; font-size:0.95rem; background:#fff;"
-    >
-      <span style="font-size:1.2rem;">📂</span>
-      <span>Download .ics</span>
+    <a id="btn-ics"
+    href="https://calendar.tiwahu.com/futuredaysbeer/calendar.ics"
+    style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.6rem
+    1rem; border-radius:999px; border:1px solid #ccc; color:#333;
+    text-decoration:none; font-weight:500; font-size:0.95rem; background:#fff;"
+    > 
+      <span style="font-size:1.2rem;">📂</span> <span>Download .ics</span>
     </a>
   </div>
 
@@ -46,12 +48,9 @@ title: Calendar
       Open your camera, scan this code, and subscribe from your device.
     </p>
     <img
-      src="https://chart.googleapis.com/chart?cht=qr&chs=220x220&chl=https%3A%2F%2Fcalendar.tiwahu.com%2Ffuturedaysbeer%2Fcalendar.ics"
-      alt="QR code for Future Days Beer calendar subscription"
-      width="220"
-      height="220"
-      style="border-radius:8px; border:1px solid #eee;"
-    />
+    src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://calendar.tiwahu.com/futuredaysbeer/calendar.ics"
+    alt="QR code for Future Days Beer calendar subscription" width="220"
+    height="220" style="border-radius:8px; border:1px solid #eee;" />
   </div>
 </section>
 
